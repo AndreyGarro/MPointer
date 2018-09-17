@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/MPointer.dir/main.cpp.o  -o MPointer 

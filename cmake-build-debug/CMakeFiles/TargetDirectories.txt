@@ -1,0 +1,3 @@
+/home/christian/Escritorio/MPointer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/christian/Escritorio/MPointer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/christian/Escritorio/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir
