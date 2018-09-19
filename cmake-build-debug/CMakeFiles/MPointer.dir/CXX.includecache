@@ -9,6 +9,8 @@
 /home/christian/Escritorio/MPointer/MPointer.h
 stdlib.h
 -
+iostream
+-
 
 /home/christian/Escritorio/MPointer/main.cpp
 iostream
