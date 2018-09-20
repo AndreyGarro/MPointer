@@ -6,15 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/christian/Escritorio/MPointer/MPointer.h
-stdlib.h
--
+/home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.cpp
 iostream
+-
+MPointerGC.h
+/home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.h
+chrono
+-
+thread
 -
 
-/home/christian/Escritorio/MPointer/main.cpp
+/home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.h
 iostream
 -
-MPointer.h
-/home/christian/Escritorio/MPointer/MPointer.h
 

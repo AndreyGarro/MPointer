@@ -48,10 +48,10 @@ RM = /snap/clion/39/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/christian/Escritorio/MPointer
+CMAKE_SOURCE_DIR = /home/andrew/CLionProjects/MPointer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/christian/Escritorio/MPointer/cmake-build-debug
+CMAKE_BINARY_DIR = /home/andrew/CLionProjects/MPointer/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/christian/Escritorio/MPointer/cmake-build-debug/CMakeFiles /home/christian/Escritorio/MPointer/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles /home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/christian/Escritorio/MPointer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,33 @@ MPointer/fast:
 	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/build
 .PHONY : MPointer/fast
 
+MPointerGC/MPointerGC.o: MPointerGC/MPointerGC.cpp.o
+
+.PHONY : MPointerGC/MPointerGC.o
+
+# target to build an object file
+MPointerGC/MPointerGC.cpp.o:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/MPointerGC/MPointerGC.cpp.o
+.PHONY : MPointerGC/MPointerGC.cpp.o
+
+MPointerGC/MPointerGC.i: MPointerGC/MPointerGC.cpp.i
+
+.PHONY : MPointerGC/MPointerGC.i
+
+# target to preprocess a source file
+MPointerGC/MPointerGC.cpp.i:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/MPointerGC/MPointerGC.cpp.i
+.PHONY : MPointerGC/MPointerGC.cpp.i
+
+MPointerGC/MPointerGC.s: MPointerGC/MPointerGC.cpp.s
+
+.PHONY : MPointerGC/MPointerGC.s
+
+# target to generate assembly for a file
+MPointerGC/MPointerGC.cpp.s:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/MPointerGC/MPointerGC.cpp.s
+.PHONY : MPointerGC/MPointerGC.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... MPointer"
+	@echo "... MPointerGC/MPointerGC.o"
+	@echo "... MPointerGC/MPointerGC.i"
+	@echo "... MPointerGC/MPointerGC.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
