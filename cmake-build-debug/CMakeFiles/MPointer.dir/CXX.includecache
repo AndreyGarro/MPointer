@@ -6,13 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/christian/Escritorio/MPointer/MPointer.h
+/home/andrew/CLionProjects/MPointer/MPointer.h
 stdlib.h
 -
 
-/home/christian/Escritorio/MPointer/main.cpp
+/home/andrew/CLionProjects/MPointer/main.cpp
 iostream
 -
 MPointer.h
-/home/christian/Escritorio/MPointer/MPointer.h
+/home/andrew/CLionProjects/MPointer/MPointer.h
+iostream
+-
+thread
+-
+chrono
+-
 
