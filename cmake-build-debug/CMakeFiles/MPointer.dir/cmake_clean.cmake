@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MPointer.dir/main.cpp.o"
+  "CMakeFiles/MPointer.dir/MPointerGC/MPointerGC.cpp.o"
   "MPointer.pdb"
   "MPointer"
 )
