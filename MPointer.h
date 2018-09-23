@@ -1,17 +1,20 @@
 //
 // Created by christian on 16/09/18.
 //
-#include <stdlib.h>
-#include <iostream>
+
 
 #ifndef MPOINTER_MPOINTER_H
 #define MPOINTER_MPOINTER_H
+
+#include <stdlib.h>
+#include <iostream>
+
 
 template <class T>
 class MPointer {
 private:
     T *data;
-    int ID;
+    std::string ID;
 
 public:
     MPointer();
@@ -20,15 +23,18 @@ public:
     T& operator *();
     MPointer<T>& operator =(const MPointer<T>&);
     T operator =(const T&);
+
+
 };
 
-
-
+#include "MPointerGC/MPointerGC.h"
 // Constructor, reserva el espacio para el data
 template <class T>
 MPointer<T>::MPointer(){
+    MPointerGC *temp = MPointerGC::getInstance();
     data = (T*)malloc(sizeof(T));
-
+    ID = temp->addPointer(&data);
+    std::cout << this <<" "<< ID << std::endl;
 }
 
 // Destructor, Libera el espacio del data
@@ -71,3 +77,4 @@ T MPointer<T>::operator =(const T &a) {
 }
 
 #endif //MPOINTER_MPOINTER_H
+

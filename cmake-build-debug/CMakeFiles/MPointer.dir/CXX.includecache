@@ -6,39 +6,45 @@
 
 #IncludeRegexTransform: 
 
-/home/andrew/CLionProjects/MPointer/Listas/ListaSimple.h
+/home/christian/Escritorio/MPointer/Listas/ListaGC.h
 iostream
 -
 string
 -
 
-/home/andrew/CLionProjects/MPointer/MPointer.h
+/home/christian/Escritorio/MPointer/MPointer.h
 stdlib.h
 -
 iostream
 -
+MPointerGC/MPointerGC.h
+/home/christian/Escritorio/MPointer/MPointerGC/MPointerGC.h
 
-/home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.h
+/home/christian/Escritorio/MPointer/MPointerGC/MPointerGC.cpp
+iostream
+-
+MPointerGC.h
+/home/christian/Escritorio/MPointer/MPointerGC/MPointerGC.h
+chrono
+-
+thread
+-
+
+/home/christian/Escritorio/MPointer/MPointerGC/MPointerGC.h
+../MPointer.h
+/home/christian/Escritorio/MPointer/MPointer.h
 iostream
 -
 stdio.h
 -
 stdlib.h
 -
-../MPointer.h
-/home/andrew/CLionProjects/MPointer/MPointer.h
-../Listas/ListaSimple.h
-/home/andrew/CLionProjects/MPointer/Listas/ListaSimple.h
+../Listas/ListaGC.h
+/home/christian/Escritorio/MPointer/Listas/ListaGC.h
 
-/home/andrew/CLionProjects/MPointer/main.cpp
+/home/christian/Escritorio/MPointer/main.cpp
 iostream
 -
 MPointer.h
-/home/andrew/CLionProjects/MPointer/MPointer.h
-MPointerGC/MPointerGC.h
-/home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.h
-iostream
--
-Listas/ListaSimple.h
-/home/andrew/CLionProjects/MPointer/Listas/ListaSimple.h
+/home/christian/Escritorio/MPointer/MPointer.h
 
