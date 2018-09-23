@@ -1,6 +1,7 @@
 //
 // Created by andrew on 19/09/18.
 //
+#include "../MPointer.h"
 
 #ifndef MPOINTER_MPOINTERGC_H
 #define MPOINTER_MPOINTERGC_H
@@ -8,7 +9,8 @@
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
-#include "../MPointer.h"
+
+
 #include "../Listas/ListaGC.h"
 
 using namespace std;

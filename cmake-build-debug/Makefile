@@ -48,10 +48,10 @@ RM = /snap/clion/39/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andrew/CLionProjects/MPointer
+CMAKE_SOURCE_DIR = /home/christian/Escritorio/MPointer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andrew/CLionProjects/MPointer/cmake-build-debug
+CMAKE_BINARY_DIR = /home/christian/Escritorio/MPointer/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles /home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/christian/Escritorio/MPointer/cmake-build-debug/CMakeFiles /home/christian/Escritorio/MPointer/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/christian/Escritorio/MPointer/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ MPointer/fast:
 	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/build
 .PHONY : MPointer/fast
 
-Listas/ListaSimple.o: Listas/ListaSimple.cpp.o
+Listas/ListaGC.o: Listas/ListaGC.cpp.o
 
-.PHONY : Listas/ListaSimple.o
+.PHONY : Listas/ListaGC.o
 
 # target to build an object file
-Listas/ListaSimple.cpp.o:
-	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/Listas/ListaSimple.cpp.o
-.PHONY : Listas/ListaSimple.cpp.o
+Listas/ListaGC.cpp.o:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/Listas/ListaGC.cpp.o
+.PHONY : Listas/ListaGC.cpp.o
 
-Listas/ListaSimple.i: Listas/ListaSimple.cpp.i
+Listas/ListaGC.i: Listas/ListaGC.cpp.i
 
-.PHONY : Listas/ListaSimple.i
+.PHONY : Listas/ListaGC.i
 
 # target to preprocess a source file
-Listas/ListaSimple.cpp.i:
-	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/Listas/ListaSimple.cpp.i
-.PHONY : Listas/ListaSimple.cpp.i
+Listas/ListaGC.cpp.i:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/Listas/ListaGC.cpp.i
+.PHONY : Listas/ListaGC.cpp.i
 
-Listas/ListaSimple.s: Listas/ListaSimple.cpp.s
+Listas/ListaGC.s: Listas/ListaGC.cpp.s
 
-.PHONY : Listas/ListaSimple.s
+.PHONY : Listas/ListaGC.s
 
 # target to generate assembly for a file
-Listas/ListaSimple.cpp.s:
-	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/Listas/ListaSimple.cpp.s
-.PHONY : Listas/ListaSimple.cpp.s
+Listas/ListaGC.cpp.s:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/Listas/ListaGC.cpp.s
+.PHONY : Listas/ListaGC.cpp.s
 
 MPointerGC/MPointerGC.o: MPointerGC/MPointerGC.cpp.o
 
@@ -213,9 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... MPointer"
-	@echo "... Listas/ListaSimple.o"
-	@echo "... Listas/ListaSimple.i"
-	@echo "... Listas/ListaSimple.s"
+	@echo "... Listas/ListaGC.o"
+	@echo "... Listas/ListaGC.i"
+	@echo "... Listas/ListaGC.s"
 	@echo "... MPointerGC/MPointerGC.o"
 	@echo "... MPointerGC/MPointerGC.i"
 	@echo "... MPointerGC/MPointerGC.s"
