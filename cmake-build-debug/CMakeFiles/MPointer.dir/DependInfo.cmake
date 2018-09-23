@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/christian/Escritorio/MPointer/Listas/ListaGC.cpp" "/home/christian/Escritorio/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir/Listas/ListaGC.cpp.o"
-  "/home/christian/Escritorio/MPointer/MPointerGC/MPointerGC.cpp" "/home/christian/Escritorio/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir/MPointerGC/MPointerGC.cpp.o"
-  "/home/christian/Escritorio/MPointer/main.cpp" "/home/christian/Escritorio/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir/main.cpp.o"
+  "/home/andrew/CLionProjects/MPointer/Listas/ListaGC.cpp" "/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir/Listas/ListaGC.cpp.o"
+  "/home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.cpp" "/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir/MPointerGC/MPointerGC.cpp.o"
+  "/home/andrew/CLionProjects/MPointer/main.cpp" "/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

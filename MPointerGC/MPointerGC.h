@@ -29,7 +29,9 @@ private:
 
     ListaGC<MPointer<int>> listaMPointer;
 
-    MPointer<int> *array = (MPointer<int>*) malloc(sizeof(MPointer<int>)*20);
+    string generarID();
+
+    void eliminarReferencia(string id);
 
     int ID = -1;
 
@@ -40,15 +42,9 @@ public:
 
     string addPointer(int **nuevo);
 
-    void contar();
-
-    string generarID();
-
     string addRepitedPointer(int ** nuevo);
 
     void imprimirLista();
-
-    void eliminarReferencia(string id);
 };
 
 #endif //MPOINTER_MPOINTERGC_H

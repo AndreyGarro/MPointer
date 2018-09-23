@@ -2,28 +2,31 @@
 // Created by andrew on 19/09/18.
 //
 
+//Includes
 #include <iostream>
 #include "MPointerGC.h"
 #include <chrono>
 #include <thread>
+//Fin de Includes
 
+/**
+ * Inicialización de parámetros
+ */
 bool MPointerGC::active = false;
 MPointerGC* MPointerGC::instance = nullptr;
 
-void MPointerGC::contar() {
-    int x=0;
-    while (x<100){
-        cout<<x<<endl;
-        x++;
-        std::this_thread::sleep_for(std::chrono::milliseconds(1000));
-    }
-
-}
-
+/**
+ * Revisa si la ya fue instanciado el singleton
+ * @return true o false
+ */
 bool MPointerGC::isActive() {
     return active;
 }
 
+/**
+ * Inicializa el singleton de la clase
+ * @return instance
+ */
 MPointerGC *MPointerGC::getInstance() {
     if(!instance){
         instance = new MPointerGC();
@@ -32,17 +35,31 @@ MPointerGC *MPointerGC::getInstance() {
     return instance;
 }
 
+/**
+ * Agrega la nueva dirección de memoria del puntero añadido
+ * @param nuevoPTR dirección de memoria del nuevo dato del pointer
+ * @return ID asignado a ese dato
+ */
 string MPointerGC::addPointer(int **nuevoPTR) {
     string nuevoID = generarID();
     listaMPointer.insertarNodo(nuevoPTR, nuevoID);
     return nuevoID;
 }
 
+/**
+ * Genera los ID de los nuevos datos agregados a la lista
+ * @return ID
+ */
 string MPointerGC::generarID() {
     this->ID ++;
     return "GC-" + to_string(ID);
 }
 
+/**
+ * Función para agregar MPointer a datos repetidos
+ * @param nuevo dirección de memoria del dato repetido
+ * @return el ID del dato repetido
+ */
 string MPointerGC::addRepitedPointer(int** nuevo) {
     for(int i = 0; i<listaMPointer.getLenght(); i++){
         if(nuevo == listaMPointer.getDato(i)){
@@ -53,6 +70,9 @@ string MPointerGC::addRepitedPointer(int** nuevo) {
     }
 }
 
+/**
+ * Imprime la lista con las posiciones de memoria guardadas
+ */
 void MPointerGC::imprimirLista() {
     for(int i = 0; i<listaMPointer.getLenght(); i++){
         cout<<listaMPointer.getDato(i)<<endl;
@@ -60,6 +80,11 @@ void MPointerGC::imprimirLista() {
 
 }
 
+/**
+ * Cuando se elimina un puntero a un dato la función elimina la cantidad de referencias
+ * que este posea, si esta llega a cero elimina el dato de la lista (separar a la función del Thread)
+ * @param id ID del dato al que se le ha eliminado la referencia
+ */
 void MPointerGC::eliminarReferencia(string id) {
     if(this->listaMPointer.getCantRefPorID(id) == 1){
         this->listaMPointer.eliminarNodo(id);
