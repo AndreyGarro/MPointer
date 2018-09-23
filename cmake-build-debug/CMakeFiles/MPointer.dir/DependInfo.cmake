@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/andrew/CLionProjects/MPointer/Listas/ListaSimple.cpp" "/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir/Listas/ListaSimple.cpp.o"
   "/home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.cpp" "/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir/MPointerGC/MPointerGC.cpp.o"
   "/home/andrew/CLionProjects/MPointer/main.cpp" "/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir/main.cpp.o"
   )

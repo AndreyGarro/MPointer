@@ -123,6 +123,33 @@ MPointer/fast:
 	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/build
 .PHONY : MPointer/fast
 
+Listas/ListaSimple.o: Listas/ListaSimple.cpp.o
+
+.PHONY : Listas/ListaSimple.o
+
+# target to build an object file
+Listas/ListaSimple.cpp.o:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/Listas/ListaSimple.cpp.o
+.PHONY : Listas/ListaSimple.cpp.o
+
+Listas/ListaSimple.i: Listas/ListaSimple.cpp.i
+
+.PHONY : Listas/ListaSimple.i
+
+# target to preprocess a source file
+Listas/ListaSimple.cpp.i:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/Listas/ListaSimple.cpp.i
+.PHONY : Listas/ListaSimple.cpp.i
+
+Listas/ListaSimple.s: Listas/ListaSimple.cpp.s
+
+.PHONY : Listas/ListaSimple.s
+
+# target to generate assembly for a file
+Listas/ListaSimple.cpp.s:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/Listas/ListaSimple.cpp.s
+.PHONY : Listas/ListaSimple.cpp.s
+
 MPointerGC/MPointerGC.o: MPointerGC/MPointerGC.cpp.o
 
 .PHONY : MPointerGC/MPointerGC.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... MPointer"
+	@echo "... Listas/ListaSimple.o"
+	@echo "... Listas/ListaSimple.i"
+	@echo "... Listas/ListaSimple.s"
 	@echo "... MPointerGC/MPointerGC.o"
 	@echo "... MPointerGC/MPointerGC.i"
 	@echo "... MPointerGC/MPointerGC.s"

@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "../MPointer.h"
+#include "../Listas/ListaSimple.h"
 
 using namespace std;
 
@@ -23,6 +24,8 @@ private:
     static bool active;
 
     static MPointerGC * instance;
+
+    ListaSimple<MPointer<int>> listaMPointer; 
 
     MPointer<int> *array = (MPointer<int>*) malloc(sizeof(MPointer<int>)*20);
 
