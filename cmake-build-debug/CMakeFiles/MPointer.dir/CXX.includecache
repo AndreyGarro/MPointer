@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/andrew/CLionProjects/MPointer/Listas/ListaSimple.cpp
+ListaSimple.h
+/home/andrew/CLionProjects/MPointer/Listas/ListaSimple.h
+
 /home/andrew/CLionProjects/MPointer/Listas/ListaSimple.h
 iostream
 -
@@ -18,6 +22,16 @@ stdlib.h
 iostream
 -
 
+/home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.cpp
+iostream
+-
+MPointerGC.h
+/home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.h
+chrono
+-
+thread
+-
+
 /home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.h
 iostream
 -
@@ -27,6 +41,8 @@ stdlib.h
 -
 ../MPointer.h
 /home/andrew/CLionProjects/MPointer/MPointer.h
+../Listas/ListaSimple.h
+/home/andrew/CLionProjects/MPointer/Listas/ListaSimple.h
 
 /home/andrew/CLionProjects/MPointer/main.cpp
 iostream

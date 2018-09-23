@@ -14,6 +14,7 @@ template <class T>
         struct nodo{
     T dato;
     nodo<T> *siguiente;
+    nodo<T> *anterior;
 };
 
 template <class T>
@@ -44,6 +45,7 @@ public:
             nodo<T> *nuevo = new nodo<T>();
             nuevo->dato = *dato;
             aux->siguiente = nuevo;
+            nuevo->anterior = aux;
         }
     };
 
@@ -56,7 +58,7 @@ public:
         }
         return aux->dato;
     };
-
 };
+
 
 #endif //MPOINTER_LISTASIMPLE_H
