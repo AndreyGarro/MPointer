@@ -32,11 +32,40 @@ MPointerGC *MPointerGC::getInstance() {
     return instance;
 }
 
-void MPointerGC::addPointer(MPointer<int> nuevoPTR) {
-    
+string MPointerGC::addPointer(int **nuevoPTR) {
+    string nuevoID = generarID();
+    listaMPointer.insertarNodo(nuevoPTR, nuevoID);
+    return nuevoID;
 }
 
 string MPointerGC::generarID() {
+    this->ID ++;
     return "GC-" + to_string(ID);
+}
+
+string MPointerGC::addRepitedPointer(int** nuevo) {
+    for(int i = 0; i<listaMPointer.getLenght(); i++){
+        if(nuevo == listaMPointer.getDato(i)){
+            string id = listaMPointer.idNecesitado(i);
+            this->listaMPointer.aumentarRef(id);
+            return id;
+        }
+    }
+}
+
+void MPointerGC::imprimirLista() {
+    for(int i = 0; i<listaMPointer.getLenght(); i++){
+        cout<<listaMPointer.getDato(i)<<endl;
+    }
+
+}
+
+void MPointerGC::eliminarReferencia(string id) {
+    if(this->listaMPointer.getCantRefPorID(id) == 1){
+        this->listaMPointer.eliminarNodo(id);
+    }
+    else {
+        this->listaMPointer.disminuirRef(id);
+    }
 }
 

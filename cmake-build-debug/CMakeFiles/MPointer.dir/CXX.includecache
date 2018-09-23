@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/andrew/CLionProjects/MPointer/Listas/ListaSimple.cpp
-ListaSimple.h
-/home/andrew/CLionProjects/MPointer/Listas/ListaSimple.h
-
 /home/andrew/CLionProjects/MPointer/Listas/ListaSimple.h
 iostream
 -
@@ -20,16 +16,6 @@ string
 stdlib.h
 -
 iostream
--
-
-/home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.cpp
-iostream
--
-MPointerGC.h
-/home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.h
-chrono
--
-thread
 -
 
 /home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.h

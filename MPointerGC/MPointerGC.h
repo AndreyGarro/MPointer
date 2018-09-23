@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "../MPointer.h"
-#include "../Listas/ListaSimple.h"
+#include "../Listas/ListaGC.h"
 
 using namespace std;
 
@@ -25,22 +25,28 @@ private:
 
     static MPointerGC * instance;
 
-    ListaSimple<MPointer<int>> listaMPointer;
+    ListaGC<MPointer<int>> listaMPointer;
 
     MPointer<int> *array = (MPointer<int>*) malloc(sizeof(MPointer<int>)*20);
 
-    int ID = 0;
+    int ID = -1;
 
 public:
     static MPointerGC *getInstance();
 
     static bool isActive();
 
-    void addPointer(MPointer<int> nuevo);
+    string addPointer(int **nuevo);
 
     void contar();
 
     string generarID();
+
+    string addRepitedPointer(int ** nuevo);
+
+    void imprimirLista();
+
+    void eliminarReferencia(string id);
 };
 
 #endif //MPOINTER_MPOINTERGC_H
