@@ -6,17 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.cpp
+/home/andrew/CLionProjects/MPointer/Listas/ListaSimple.h
 iostream
 -
-MPointerGC.h
-/home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.h
-chrono
+string
 -
-thread
+
+/home/andrew/CLionProjects/MPointer/MPointer.h
+stdlib.h
+-
+iostream
 -
 
 /home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.h
 iostream
 -
+stdio.h
+-
+stdlib.h
+-
+../MPointer.h
+/home/andrew/CLionProjects/MPointer/MPointer.h
+
+/home/andrew/CLionProjects/MPointer/main.cpp
+iostream
+-
+MPointer.h
+/home/andrew/CLionProjects/MPointer/MPointer.h
+MPointerGC/MPointerGC.h
+/home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.h
+iostream
+-
+Listas/ListaSimple.h
+/home/andrew/CLionProjects/MPointer/Listas/ListaSimple.h
 

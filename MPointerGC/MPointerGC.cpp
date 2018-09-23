@@ -32,7 +32,7 @@ MPointerGC *MPointerGC::getInstance() {
     return instance;
 }
 
-void MPointerGC::addPointer(MPointer<int> nuevo) {
-    array += *nuevo;
+void MPointerGC::addPointer(MPointer<int> nuevoPTR) {
+    
 }
 

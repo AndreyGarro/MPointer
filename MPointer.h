@@ -41,21 +41,21 @@ MPointer<T>::~MPointer() {
 // Operador &, Retorna el valor guardado en data.
 template <class T>
 T MPointer<T>::operator &() {
-    std::cout << "Estoy en sobrecarga de &"<<std::endl;
+//    std::cout << "Estoy en sobrecarga de &"<<std::endl;
     return *this->data;
 }
 
 /// Operador *, permite almacenar un valor en data
 template <class T>
 T &MPointer<T>::operator *() {
-    std::cout << "Estoy en sobrecarga de *" <<std::endl;
+//    std::cout << "Estoy en sobrecarga de *" <<std::endl;
     return *this->data;
 }
 
 //Operador = para el caso de copia de dos MPointer(Falta copiar el ID)
 template <class T>
 MPointer<T>& MPointer<T>::operator =(const MPointer<T> &a) {
-    std::cout << "Estoy en caso 1 "<< std::endl;
+//    std::cout << "Estoy en caso 1 "<< std::endl;
     if(this != &a) {
         this->data = a.data;
     }
@@ -66,7 +66,7 @@ MPointer<T>& MPointer<T>::operator =(const MPointer<T> &a) {
 template <class T>
 T MPointer<T>::operator =(const T &a) {
     *this->data = a;
-    std::cout << "Estoy en caso 2 " << std::endl;
+//    std::cout << "Estoy en caso 2 " << std::endl;
     return *this->data;
 }
 
