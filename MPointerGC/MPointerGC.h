@@ -25,9 +25,11 @@ private:
 
     static MPointerGC * instance;
 
-    ListaSimple<MPointer<int>> listaMPointer; 
+    ListaSimple<MPointer<int>> listaMPointer;
 
     MPointer<int> *array = (MPointer<int>*) malloc(sizeof(MPointer<int>)*20);
+
+    int ID = 0;
 
 public:
     static MPointerGC *getInstance();
@@ -37,6 +39,8 @@ public:
     void addPointer(MPointer<int> nuevo);
 
     void contar();
+
+    string generarID();
 };
 
 #endif //MPOINTER_MPOINTERGC_H

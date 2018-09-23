@@ -36,3 +36,7 @@ void MPointerGC::addPointer(MPointer<int> nuevoPTR) {
     
 }
 
+string MPointerGC::generarID() {
+    return "GC-" + to_string(ID);
+}
+
