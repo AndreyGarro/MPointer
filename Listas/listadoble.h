@@ -5,14 +5,39 @@
 
 using namespace std;
 
-struct Nodo{
+class Nodo{
     int data;
-    MPointer<Nodo> *next = nullptr;
-    MPointer<Nodo> *prev = nullptr;
+    MPointer<Nodo*> *next = nullptr;
+    MPointer<Nodo*> *prev = nullptr;
+public:
+    int getData(){
+        return data;
+    }
+    void setData(int data){
+        this->data = data;
+    }
+    MPointer<Nodo*>* getNext(){
+        return next;
+    }
+    void setNext(Nodo *&next){
+        if (this->next == nullptr){
+            this->next = new MPointer<Nodo*>();
+        }
+        this->next->operator=(next);
+    }
+    MPointer<Nodo*>* getPrev(){
+        return prev;
+    }
+    void setPrev(Nodo *&prev){
+        if (this->prev == nullptr){
+            this->prev = new MPointer<Nodo*>();
+        }
+        this->prev->operator=(prev);
+    }
 };
 
 class ListaDoble{
-    MPointer<Nodo> *head;
+    MPointer<Nodo*> *head;
 
 public :
     ListaDoble(){
@@ -20,35 +45,39 @@ public :
     }
 
     void add(int p_data){
-        Nodo tmp1;
-        tmp1.data = p_data;
+        Nodo* tmpNodo = new Nodo;
+        tmpNodo->setData(p_data);
 
         if (head == nullptr){
-            head = new MPointer<Nodo>();
-            head->operator=(tmp1);
+            head = new MPointer<Nodo*>();
+            head->operator=(tmpNodo);
         }
         else{
-            MPointer<Nodo> *tmp2 = head;
-            while (tmp2->operator&().next != nullptr) {
-                tmp2 = tmp2->operator&().next;
+            MPointer<Nodo*> *tmp = head;
+            while (tmp->operator&()->getNext() != nullptr) {
+                tmp = tmp->operator&()->getNext();
             }
-            MPointer<Nodo> *tmp3 = tmp2->operator&().next;
-            tmp3 = new MPointer<Nodo>();
-            MPointer<Nodo> *tmpPrev = tmp3->operator&().prev;
-            tmp2->operator&().next->operator=(tmp1);
-            tmpPrev = new MPointer<Nodo>();
-            tmpPrev->operator=(*tmp2);
+            MPointer<Nodo*> *tmpNext = new MPointer<Nodo*>();
+            tmp->operator&()->setNext(tmpNodo);
+            tmpNext->operator=(*tmp->operator&()->getNext());
+            Nodo* tmpNodoPrev = tmp->operator&();
+            tmpNext->operator&()->setPrev(tmpNodoPrev);
         }
 
     }
 
+    void remove(){
+//not yet, u see, right?
+    }
+
     void printL(){
         cout << "listaaaa";
-        MPointer<Nodo> *tmp = head;
+        MPointer<Nodo*> *tmp = head;
         while(tmp != nullptr){
-            cout << tmp->operator&().data << " -> ";
-            tmp = tmp->operator&().next;
+            cout << tmp->operator&()->getData() << " -> ";
+            tmp = tmp->operator&()->getNext();
         }
+        cout << endl;
     }
 };
 

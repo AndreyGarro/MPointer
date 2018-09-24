@@ -2,8 +2,8 @@
 // Created by andrew on 19/09/18.
 //
 
-// #ifndef MPOINTER_MPOINTERGC_H
-// #define MPOINTER_MPOINTERGC_H
+#ifndef MPOINTER_MPOINTERGC_H
+#define MPOINTER_MPOINTERGC_H
 #include "../MPointer.h"
 #include <iostream>
 #include <stdio.h>
@@ -15,12 +15,6 @@ using namespace std;
 
 class MPointerGC {
 private:
-    MPointerGC() { cout << "Se creo una instancia nueva!\n"; }
-
-    ~MPointerGC() {}
-
-    MPointerGC(const MPointerGC &);
-
     static bool active;
 
     static MPointerGC * instance;
@@ -29,9 +23,17 @@ private:
 
     string generarID();
 
+    int ID = -1;
+
+    MPointerGC() { cout << "Se creo una instancia nueva!\n"; }
+
+    MPointerGC(const MPointerGC &);
+
+    ~MPointerGC() {}
+
     void eliminarReferencia(string id);
 
-    int ID = -1;
+
 
 public:
     static MPointerGC *getInstance();
@@ -45,4 +47,4 @@ public:
     void imprimirLista();
 };
 
-// #endif //MPOINTER_MPOINTERGC_H
+#endif //MPOINTER_MPOINTERGC_H
