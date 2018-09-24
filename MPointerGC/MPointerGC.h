@@ -1,15 +1,13 @@
 //
 // Created by andrew on 19/09/18.
 //
+
+// #ifndef MPOINTER_MPOINTERGC_H
+// #define MPOINTER_MPOINTERGC_H
 #include "../MPointer.h"
-
-#ifndef MPOINTER_MPOINTERGC_H
-#define MPOINTER_MPOINTERGC_H
-
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
-
 
 #include "../Listas/ListaGC.h"
 
@@ -17,7 +15,7 @@ using namespace std;
 
 class MPointerGC {
 private:
-    MPointerGC() { cout << "Se creo una instancia nueva!\n"; };
+    MPointerGC() { cout << "Se creo una instancia nueva!\n"; }
 
     ~MPointerGC() {}
 
@@ -47,4 +45,4 @@ public:
     void imprimirLista();
 };
 
-#endif //MPOINTER_MPOINTERGC_H
+// #endif //MPOINTER_MPOINTERGC_H

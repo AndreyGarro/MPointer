@@ -2,12 +2,10 @@
 // Created by andrew on 19/09/18.
 //
 
-//Includes
 #include <iostream>
 #include "MPointerGC.h"
 #include <chrono>
 #include <thread>
-//Fin de Includes
 
 /**
  * Inicialización de parámetros
