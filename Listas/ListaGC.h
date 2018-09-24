@@ -83,7 +83,7 @@ public:
         }
         nuevo->cantRef ++;
         this->lenght ++;
-    };
+    }
 
     /**
      * Obtiene el dato en la posición dada
@@ -98,7 +98,7 @@ public:
             i++;
         }
         return aux->dato;
-    };
+    }
 
     /**
      * Obtiene la cantidad de referencias que tiene un dato
