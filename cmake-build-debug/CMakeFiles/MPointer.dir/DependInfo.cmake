@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/andrew/CLionProjects/MPointer/Listas/ListaGC.cpp" "/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir/Listas/ListaGC.cpp.o"
-  "/home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.cpp" "/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir/MPointerGC/MPointerGC.cpp.o"
-  "/home/andrew/CLionProjects/MPointer/main.cpp" "/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir/main.cpp.o"
+  "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/MPointerGC/MPointerGC.cpp" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir/MPointerGC/MPointerGC.cpp.o"
+  "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/main.cpp" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir/main.cpp.o"
+  "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/src/server/MCliente.cpp" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir/src/server/MCliente.cpp.o"
+  "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/src/server/MServidor.cpp" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir/src/server/MServidor.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -48,10 +48,10 @@ RM = /snap/clion/39/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andrew/CLionProjects/MPointer
+CMAKE_SOURCE_DIR = "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andrew/CLionProjects/MPointer/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles /home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/cmake-build-debug/CMakeFiles" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -122,33 +122,6 @@ MPointer: cmake_check_build_system
 MPointer/fast:
 	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/build
 .PHONY : MPointer/fast
-
-Listas/ListaGC.o: Listas/ListaGC.cpp.o
-
-.PHONY : Listas/ListaGC.o
-
-# target to build an object file
-Listas/ListaGC.cpp.o:
-	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/Listas/ListaGC.cpp.o
-.PHONY : Listas/ListaGC.cpp.o
-
-Listas/ListaGC.i: Listas/ListaGC.cpp.i
-
-.PHONY : Listas/ListaGC.i
-
-# target to preprocess a source file
-Listas/ListaGC.cpp.i:
-	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/Listas/ListaGC.cpp.i
-.PHONY : Listas/ListaGC.cpp.i
-
-Listas/ListaGC.s: Listas/ListaGC.cpp.s
-
-.PHONY : Listas/ListaGC.s
-
-# target to generate assembly for a file
-Listas/ListaGC.cpp.s:
-	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/Listas/ListaGC.cpp.s
-.PHONY : Listas/ListaGC.cpp.s
 
 MPointerGC/MPointerGC.o: MPointerGC/MPointerGC.cpp.o
 
@@ -204,6 +177,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/server/MCliente.o: src/server/MCliente.cpp.o
+
+.PHONY : src/server/MCliente.o
+
+# target to build an object file
+src/server/MCliente.cpp.o:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/server/MCliente.cpp.o
+.PHONY : src/server/MCliente.cpp.o
+
+src/server/MCliente.i: src/server/MCliente.cpp.i
+
+.PHONY : src/server/MCliente.i
+
+# target to preprocess a source file
+src/server/MCliente.cpp.i:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/server/MCliente.cpp.i
+.PHONY : src/server/MCliente.cpp.i
+
+src/server/MCliente.s: src/server/MCliente.cpp.s
+
+.PHONY : src/server/MCliente.s
+
+# target to generate assembly for a file
+src/server/MCliente.cpp.s:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/server/MCliente.cpp.s
+.PHONY : src/server/MCliente.cpp.s
+
+src/server/MServidor.o: src/server/MServidor.cpp.o
+
+.PHONY : src/server/MServidor.o
+
+# target to build an object file
+src/server/MServidor.cpp.o:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/server/MServidor.cpp.o
+.PHONY : src/server/MServidor.cpp.o
+
+src/server/MServidor.i: src/server/MServidor.cpp.i
+
+.PHONY : src/server/MServidor.i
+
+# target to preprocess a source file
+src/server/MServidor.cpp.i:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/server/MServidor.cpp.i
+.PHONY : src/server/MServidor.cpp.i
+
+src/server/MServidor.s: src/server/MServidor.cpp.s
+
+.PHONY : src/server/MServidor.s
+
+# target to generate assembly for a file
+src/server/MServidor.cpp.s:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/server/MServidor.cpp.s
+.PHONY : src/server/MServidor.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,15 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... MPointer"
-	@echo "... Listas/ListaGC.o"
-	@echo "... Listas/ListaGC.i"
-	@echo "... Listas/ListaGC.s"
 	@echo "... MPointerGC/MPointerGC.o"
 	@echo "... MPointerGC/MPointerGC.i"
 	@echo "... MPointerGC/MPointerGC.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/server/MCliente.o"
+	@echo "... src/server/MCliente.i"
+	@echo "... src/server/MCliente.s"
+	@echo "... src/server/MServidor.o"
+	@echo "... src/server/MServidor.i"
+	@echo "... src/server/MServidor.s"
 .PHONY : help
 
 

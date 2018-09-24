@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/MPointer.dir/main.cpp.o CMakeFiles/MPointer.dir/MPointerGC/MPointerGC.cpp.o CMakeFiles/MPointer.dir/Listas/ListaGC.cpp.o  -o MPointer 
+/usr/bin/c++  -g   CMakeFiles/MPointer.dir/main.cpp.o CMakeFiles/MPointer.dir/MPointerGC/MPointerGC.cpp.o CMakeFiles/MPointer.dir/src/server/MServidor.cpp.o CMakeFiles/MPointer.dir/src/server/MCliente.cpp.o  -o MPointer 

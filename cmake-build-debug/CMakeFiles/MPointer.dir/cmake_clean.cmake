@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MPointer.dir/main.cpp.o"
   "CMakeFiles/MPointer.dir/MPointerGC/MPointerGC.cpp.o"
-  "CMakeFiles/MPointer.dir/Listas/ListaGC.cpp.o"
+  "CMakeFiles/MPointer.dir/src/server/MServidor.cpp.o"
+  "CMakeFiles/MPointer.dir/src/server/MCliente.cpp.o"
   "MPointer.pdb"
   "MPointer"
 )
