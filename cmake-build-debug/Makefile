@@ -48,24 +48,13 @@ RM = /snap/clion/39/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer"
+CMAKE_SOURCE_DIR = /home/christian/Escritorio/MPointer2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/christian/Escritorio/MPointer2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/39/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -78,11 +67,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/snap/clion/39/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/cmake-build-debug/CMakeFiles" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/christian/Escritorio/MPointer2/cmake-build-debug/CMakeFiles /home/christian/Escritorio/MPointer2/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/christian/Escritorio/MPointer2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MPointer
+# Target rules for targets named MPointer2
 
 # Build rule for target.
-MPointer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 MPointer
-.PHONY : MPointer
+MPointer2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MPointer2
+.PHONY : MPointer2
 
 # fast build rule for target.
-MPointer/fast:
-	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/build
-.PHONY : MPointer/fast
+MPointer2/fast:
+	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/build
+.PHONY : MPointer2/fast
 
 MPointerGC/MPointerGC.o: MPointerGC/MPointerGC.cpp.o
 
@@ -129,7 +129,7 @@ MPointerGC/MPointerGC.o: MPointerGC/MPointerGC.cpp.o
 
 # target to build an object file
 MPointerGC/MPointerGC.cpp.o:
-	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/MPointerGC/MPointerGC.cpp.o
+	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.o
 .PHONY : MPointerGC/MPointerGC.cpp.o
 
 MPointerGC/MPointerGC.i: MPointerGC/MPointerGC.cpp.i
@@ -138,7 +138,7 @@ MPointerGC/MPointerGC.i: MPointerGC/MPointerGC.cpp.i
 
 # target to preprocess a source file
 MPointerGC/MPointerGC.cpp.i:
-	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/MPointerGC/MPointerGC.cpp.i
+	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.i
 .PHONY : MPointerGC/MPointerGC.cpp.i
 
 MPointerGC/MPointerGC.s: MPointerGC/MPointerGC.cpp.s
@@ -147,35 +147,35 @@ MPointerGC/MPointerGC.s: MPointerGC/MPointerGC.cpp.s
 
 # target to generate assembly for a file
 MPointerGC/MPointerGC.cpp.s:
-	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/MPointerGC/MPointerGC.cpp.s
+	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.s
 .PHONY : MPointerGC/MPointerGC.cpp.s
 
-main.o: main.cpp.o
+MPointerQT/MPointerQT/main.o: MPointerQT/MPointerQT/main.cpp.o
 
-.PHONY : main.o
+.PHONY : MPointerQT/MPointerQT/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/main.cpp.o
-.PHONY : main.cpp.o
+MPointerQT/MPointerQT/main.cpp.o:
+	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.o
+.PHONY : MPointerQT/MPointerQT/main.cpp.o
 
-main.i: main.cpp.i
+MPointerQT/MPointerQT/main.i: MPointerQT/MPointerQT/main.cpp.i
 
-.PHONY : main.i
+.PHONY : MPointerQT/MPointerQT/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/main.cpp.i
-.PHONY : main.cpp.i
+MPointerQT/MPointerQT/main.cpp.i:
+	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.i
+.PHONY : MPointerQT/MPointerQT/main.cpp.i
 
-main.s: main.cpp.s
+MPointerQT/MPointerQT/main.s: MPointerQT/MPointerQT/main.cpp.s
 
-.PHONY : main.s
+.PHONY : MPointerQT/MPointerQT/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/main.cpp.s
-.PHONY : main.cpp.s
+MPointerQT/MPointerQT/main.cpp.s:
+	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.s
+.PHONY : MPointerQT/MPointerQT/main.cpp.s
 
 src/server/MCliente.o: src/server/MCliente.cpp.o
 
@@ -183,7 +183,7 @@ src/server/MCliente.o: src/server/MCliente.cpp.o
 
 # target to build an object file
 src/server/MCliente.cpp.o:
-	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/server/MCliente.cpp.o
+	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.o
 .PHONY : src/server/MCliente.cpp.o
 
 src/server/MCliente.i: src/server/MCliente.cpp.i
@@ -192,7 +192,7 @@ src/server/MCliente.i: src/server/MCliente.cpp.i
 
 # target to preprocess a source file
 src/server/MCliente.cpp.i:
-	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/server/MCliente.cpp.i
+	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.i
 .PHONY : src/server/MCliente.cpp.i
 
 src/server/MCliente.s: src/server/MCliente.cpp.s
@@ -201,7 +201,7 @@ src/server/MCliente.s: src/server/MCliente.cpp.s
 
 # target to generate assembly for a file
 src/server/MCliente.cpp.s:
-	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/server/MCliente.cpp.s
+	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.s
 .PHONY : src/server/MCliente.cpp.s
 
 src/server/MServidor.o: src/server/MServidor.cpp.o
@@ -210,7 +210,7 @@ src/server/MServidor.o: src/server/MServidor.cpp.o
 
 # target to build an object file
 src/server/MServidor.cpp.o:
-	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/server/MServidor.cpp.o
+	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.o
 .PHONY : src/server/MServidor.cpp.o
 
 src/server/MServidor.i: src/server/MServidor.cpp.i
@@ -219,7 +219,7 @@ src/server/MServidor.i: src/server/MServidor.cpp.i
 
 # target to preprocess a source file
 src/server/MServidor.cpp.i:
-	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/server/MServidor.cpp.i
+	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.i
 .PHONY : src/server/MServidor.cpp.i
 
 src/server/MServidor.s: src/server/MServidor.cpp.s
@@ -228,7 +228,7 @@ src/server/MServidor.s: src/server/MServidor.cpp.s
 
 # target to generate assembly for a file
 src/server/MServidor.cpp.s:
-	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/server/MServidor.cpp.s
+	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.s
 .PHONY : src/server/MServidor.cpp.s
 
 # Help Target
@@ -237,15 +237,15 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... MPointer"
+	@echo "... rebuild_cache"
+	@echo "... MPointer2"
 	@echo "... MPointerGC/MPointerGC.o"
 	@echo "... MPointerGC/MPointerGC.i"
 	@echo "... MPointerGC/MPointerGC.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... MPointerQT/MPointerQT/main.o"
+	@echo "... MPointerQT/MPointerQT/main.i"
+	@echo "... MPointerQT/MPointerQT/main.s"
 	@echo "... src/server/MCliente.o"
 	@echo "... src/server/MCliente.i"
 	@echo "... src/server/MCliente.s"

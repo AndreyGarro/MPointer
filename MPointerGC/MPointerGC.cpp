@@ -2,10 +2,12 @@
 // Created by andrew on 19/09/18.
 //
 
+//Includes
 #include <iostream>
 #include "MPointerGC.h"
 #include <chrono>
 #include <thread>
+//Fin de Includes
 
 /**
  * Inicialización de parámetros
@@ -38,7 +40,7 @@ MPointerGC *MPointerGC::getInstance() {
  * @param nuevoPTR dirección de memoria del nuevo dato del pointer
  * @return ID asignado a ese dato
  */
-string MPointerGC::addPointer(int **nuevoPTR) {
+string MPointerGC::addPointer(int *nuevoPTR) {
     string nuevoID = generarID();
     listaMPointer.insertarNodo(nuevoPTR, nuevoID);
     return nuevoID;
@@ -58,14 +60,8 @@ string MPointerGC::generarID() {
  * @param nuevo dirección de memoria del dato repetido
  * @return el ID del dato repetido
  */
-string MPointerGC::addRepitedPointer(int** nuevo) {
-    for(int i = 0; i<listaMPointer.getLenght(); i++){
-        if(nuevo == listaMPointer.getDato(i)){
-            string id = listaMPointer.idNecesitado(i);
-            this->listaMPointer.aumentarRef(id);
-            return id;
-        }
-    }
+void MPointerGC::addRepitedPointer(string id) {
+    this->listaMPointer.aumentarRef(id);
 }
 
 /**
@@ -74,8 +70,8 @@ string MPointerGC::addRepitedPointer(int** nuevo) {
 void MPointerGC::imprimirLista() {
     for(int i = 0; i<listaMPointer.getLenght(); i++){
         cout<<listaMPointer.getDato(i)<<endl;
+        cout<<listaMPointer.getNodo(i).cantRef<<endl;
     }
-
 }
 
 /**

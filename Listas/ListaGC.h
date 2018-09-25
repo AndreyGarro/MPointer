@@ -15,11 +15,11 @@ using namespace std;
  * @tparam T tipo de dato
  */
 template <class T>
-    struct nodo{
-        int **dato;
-        int cantRef;
-        string ID;
-        nodo<T> *siguiente;
+struct nodo{
+    int *dato;
+    int cantRef;
+    string ID;
+    nodo<T> *siguiente;
 };
 
 /**
@@ -35,19 +35,6 @@ private:
     int lenght = 0;
     //Fin de Atributos
 
-    /**
-     * Obtiene el nodo en la posición dada
-     */
-    nodo<T> getNodo(int pos){
-        int i = 0;
-        nodo<T> *aux = primero;
-        while (i<pos){
-            aux = aux->siguiente;
-            i++;
-        }
-        return *aux;
-    };
-
 public:
 
     /**
@@ -58,11 +45,24 @@ public:
     }
 
     /**
+ * Obtiene el nodo en la posición dada
+ */
+    nodo<T> getNodo(int pos){
+        int i = 0;
+        nodo<T> *aux = primero;
+        while (i<pos){
+            aux = aux->siguiente;
+            i++;
+        }
+        return *aux;
+    };
+
+    /**
      * Inserta un nuevo nodo a la lista
      * @param dato dirección de memoria a guardar como dato
      * @param ID ID asignado a este dato
      */
-    void insertarNodo(int **dato, string ID){
+    void insertarNodo(int *dato, string ID){
         auto *nuevo = new nodo<T>();
         if(this->primero == nullptr){
             nuevo->dato = dato;
@@ -83,14 +83,14 @@ public:
         }
         nuevo->cantRef ++;
         this->lenght ++;
-    }
+    };
 
     /**
      * Obtiene el dato en la posición dada
      * @param pos posición donde se encuentra el dato
      * @return dato
      */
-    int** getDato(int pos){
+    int* getDato(int pos){
         int i = 0;
         nodo<T> *aux = primero;
         while (i<pos){
@@ -98,7 +98,7 @@ public:
             i++;
         }
         return aux->dato;
-    }
+    };
 
     /**
      * Obtiene la cantidad de referencias que tiene un dato

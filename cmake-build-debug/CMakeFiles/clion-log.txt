@@ -1,4 +1,4 @@
-/snap/clion/39/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/c++ -G "CodeBlocks - Unix Makefiles" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer"
+/snap/clion/39/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/christian/Escritorio/MPointer2
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/cmake-build-debug
+-- Build files have been written to: /home/christian/Escritorio/MPointer2/cmake-build-debug
