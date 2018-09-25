@@ -3,4 +3,14 @@ project(MPointer)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(MPointer main.cpp MPointer.h MPointerGC/MPointerGC.cpp MPointerGC/MPointerGC.h Listas/ListaGC.cpp Listas/ListaGC.h)
+include_directories(.)
+include_directories(Listas)
+include_directories(MPointerGC)
+
+add_executable(MPointer
+        Listas/ListaGC.cpp
+        Listas/ListaGC.h
+        MPointerGC/MPointerGC.cpp
+        MPointerGC/MPointerGC.h
+        main.cpp
+        MPointer.h)

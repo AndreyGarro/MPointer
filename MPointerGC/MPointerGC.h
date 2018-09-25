@@ -1,7 +1,7 @@
 //
 // Created by andrew on 19/09/18.
 //
-#include "../MPointer.h"
+
 
 #ifndef MPOINTER_MPOINTERGC_H
 #define MPOINTER_MPOINTERGC_H
@@ -9,6 +9,9 @@
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
+
+
+
 
 
 #include "../Listas/ListaGC.h"
@@ -27,11 +30,9 @@ private:
 
     static MPointerGC * instance;
 
-    ListaGC<MPointer<int>> listaMPointer;
+    ListaGC<int> listaMPointer;
 
     string generarID();
-
-    void eliminarReferencia(string id);
 
     int ID = -1;
 
@@ -40,11 +41,13 @@ public:
 
     static bool isActive();
 
-    string addPointer(int **nuevo);
+    string addPointer(int *nuevo);
 
-    string addRepitedPointer(int ** nuevo);
+    void addRepitedPointer(string id);
 
     void imprimirLista();
+
+    void eliminarReferencia(string id);
 };
 
 #endif //MPOINTER_MPOINTERGC_H

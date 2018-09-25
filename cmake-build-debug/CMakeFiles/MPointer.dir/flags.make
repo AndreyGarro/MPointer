@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/christian/Escritorio/MPointer/. -I/home/christian/Escritorio/MPointer/Listas -I/home/christian/Escritorio/MPointer/MPointerGC 
 
