@@ -43,10 +43,10 @@ RM = /snap/clion/39/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/christian/Escritorio/MPointer2
+CMAKE_SOURCE_DIR = /home/andrew/CLionProjects/MPointer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/christian/Escritorio/MPointer2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/andrew/CLionProjects/MPointer/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MPointer2.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/MPointer2.dir/flags.make
 
 CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.o: CMakeFiles/MPointer2.dir/flags.make
 CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.o: ../MPointerGC/MPointerGC.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/christian/Escritorio/MPointer2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.o -c /home/christian/Escritorio/MPointer2/MPointerGC/MPointerGC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.o -c /home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.cpp
 
 CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/christian/Escritorio/MPointer2/MPointerGC/MPointerGC.cpp > CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.cpp > CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.i
 
 CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/christian/Escritorio/MPointer2/MPointerGC/MPointerGC.cpp -o CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.cpp -o CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.s
 
 CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.o: CMakeFiles/MPointer2.dir/flags.make
 CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.o: ../MPointerQT/MPointerQT/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/christian/Escritorio/MPointer2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.o -c /home/christian/Escritorio/MPointer2/MPointerQT/MPointerQT/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.o -c /home/andrew/CLionProjects/MPointer/MPointerQT/MPointerQT/main.cpp
 
 CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/christian/Escritorio/MPointer2/MPointerQT/MPointerQT/main.cpp > CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/CLionProjects/MPointer/MPointerQT/MPointerQT/main.cpp > CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.i
 
 CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/christian/Escritorio/MPointer2/MPointerQT/MPointerQT/main.cpp -o CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/CLionProjects/MPointer/MPointerQT/MPointerQT/main.cpp -o CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.s
 
 CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.o: CMakeFiles/MPointer2.dir/flags.make
 CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.o: ../src/server/MCliente.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/christian/Escritorio/MPointer2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.o -c /home/christian/Escritorio/MPointer2/src/server/MCliente.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.o -c /home/andrew/CLionProjects/MPointer/src/server/MCliente.cpp
 
 CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/christian/Escritorio/MPointer2/src/server/MCliente.cpp > CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/CLionProjects/MPointer/src/server/MCliente.cpp > CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.i
 
 CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/christian/Escritorio/MPointer2/src/server/MCliente.cpp -o CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/CLionProjects/MPointer/src/server/MCliente.cpp -o CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.s
 
 CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.o: CMakeFiles/MPointer2.dir/flags.make
 CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.o: ../src/server/MServidor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/christian/Escritorio/MPointer2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.o -c /home/christian/Escritorio/MPointer2/src/server/MServidor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.o -c /home/andrew/CLionProjects/MPointer/src/server/MServidor.cpp
 
 CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/christian/Escritorio/MPointer2/src/server/MServidor.cpp > CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/CLionProjects/MPointer/src/server/MServidor.cpp > CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.i
 
 CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/christian/Escritorio/MPointer2/src/server/MServidor.cpp -o CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/CLionProjects/MPointer/src/server/MServidor.cpp -o CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.s
 
 # Object files for target MPointer2
 MPointer2_OBJECTS = \
@@ -125,7 +125,7 @@ MPointer2: CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.o
 MPointer2: CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.o
 MPointer2: CMakeFiles/MPointer2.dir/build.make
 MPointer2: CMakeFiles/MPointer2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/christian/Escritorio/MPointer2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable MPointer2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable MPointer2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MPointer2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/MPointer2.dir/clean:
 .PHONY : CMakeFiles/MPointer2.dir/clean
 
 CMakeFiles/MPointer2.dir/depend:
-	cd /home/christian/Escritorio/MPointer2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/christian/Escritorio/MPointer2 /home/christian/Escritorio/MPointer2 /home/christian/Escritorio/MPointer2/cmake-build-debug /home/christian/Escritorio/MPointer2/cmake-build-debug /home/christian/Escritorio/MPointer2/cmake-build-debug/CMakeFiles/MPointer2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/andrew/CLionProjects/MPointer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andrew/CLionProjects/MPointer /home/andrew/CLionProjects/MPointer /home/andrew/CLionProjects/MPointer/cmake-build-debug /home/andrew/CLionProjects/MPointer/cmake-build-debug /home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/MPointer2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/MPointer2.dir/depend
 

@@ -48,24 +48,13 @@ RM = /snap/clion/39/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/christian/Escritorio/MPointer2
+CMAKE_SOURCE_DIR = /home/andrew/CLionProjects/MPointer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/christian/Escritorio/MPointer2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/andrew/CLionProjects/MPointer/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/39/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -78,11 +67,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/snap/clion/39/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/christian/Escritorio/MPointer2/cmake-build-debug/CMakeFiles /home/christian/Escritorio/MPointer2/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles /home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/christian/Escritorio/MPointer2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MPointer2
+# Target rules for targets named MPointer
 
 # Build rule for target.
-MPointer2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 MPointer2
-.PHONY : MPointer2
+MPointer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MPointer
+.PHONY : MPointer
 
 # fast build rule for target.
-MPointer2/fast:
-	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/build
-.PHONY : MPointer2/fast
-
-MPointerGC/MPointerGC.o: MPointerGC/MPointerGC.cpp.o
-
-.PHONY : MPointerGC/MPointerGC.o
-
-# target to build an object file
-MPointerGC/MPointerGC.cpp.o:
-	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.o
-.PHONY : MPointerGC/MPointerGC.cpp.o
-
-MPointerGC/MPointerGC.i: MPointerGC/MPointerGC.cpp.i
-
-.PHONY : MPointerGC/MPointerGC.i
-
-# target to preprocess a source file
-MPointerGC/MPointerGC.cpp.i:
-	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.i
-.PHONY : MPointerGC/MPointerGC.cpp.i
-
-MPointerGC/MPointerGC.s: MPointerGC/MPointerGC.cpp.s
-
-.PHONY : MPointerGC/MPointerGC.s
-
-# target to generate assembly for a file
-MPointerGC/MPointerGC.cpp.s:
-	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.s
-.PHONY : MPointerGC/MPointerGC.cpp.s
+MPointer/fast:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/build
+.PHONY : MPointer/fast
 
 MPointerQT/MPointerQT/main.o: MPointerQT/MPointerQT/main.cpp.o
 
@@ -156,7 +129,7 @@ MPointerQT/MPointerQT/main.o: MPointerQT/MPointerQT/main.cpp.o
 
 # target to build an object file
 MPointerQT/MPointerQT/main.cpp.o:
-	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.o
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o
 .PHONY : MPointerQT/MPointerQT/main.cpp.o
 
 MPointerQT/MPointerQT/main.i: MPointerQT/MPointerQT/main.cpp.i
@@ -165,7 +138,7 @@ MPointerQT/MPointerQT/main.i: MPointerQT/MPointerQT/main.cpp.i
 
 # target to preprocess a source file
 MPointerQT/MPointerQT/main.cpp.i:
-	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.i
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.i
 .PHONY : MPointerQT/MPointerQT/main.cpp.i
 
 MPointerQT/MPointerQT/main.s: MPointerQT/MPointerQT/main.cpp.s
@@ -174,62 +147,116 @@ MPointerQT/MPointerQT/main.s: MPointerQT/MPointerQT/main.cpp.s
 
 # target to generate assembly for a file
 MPointerQT/MPointerQT/main.cpp.s:
-	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.s
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.s
 .PHONY : MPointerQT/MPointerQT/main.cpp.s
 
-src/server/MCliente.o: src/server/MCliente.cpp.o
+src/MPointerGC/MPointerGC.o: src/MPointerGC/MPointerGC.cpp.o
 
-.PHONY : src/server/MCliente.o
-
-# target to build an object file
-src/server/MCliente.cpp.o:
-	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.o
-.PHONY : src/server/MCliente.cpp.o
-
-src/server/MCliente.i: src/server/MCliente.cpp.i
-
-.PHONY : src/server/MCliente.i
-
-# target to preprocess a source file
-src/server/MCliente.cpp.i:
-	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.i
-.PHONY : src/server/MCliente.cpp.i
-
-src/server/MCliente.s: src/server/MCliente.cpp.s
-
-.PHONY : src/server/MCliente.s
-
-# target to generate assembly for a file
-src/server/MCliente.cpp.s:
-	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.s
-.PHONY : src/server/MCliente.cpp.s
-
-src/server/MServidor.o: src/server/MServidor.cpp.o
-
-.PHONY : src/server/MServidor.o
+.PHONY : src/MPointerGC/MPointerGC.o
 
 # target to build an object file
-src/server/MServidor.cpp.o:
-	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.o
-.PHONY : src/server/MServidor.cpp.o
+src/MPointerGC/MPointerGC.cpp.o:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.o
+.PHONY : src/MPointerGC/MPointerGC.cpp.o
 
-src/server/MServidor.i: src/server/MServidor.cpp.i
+src/MPointerGC/MPointerGC.i: src/MPointerGC/MPointerGC.cpp.i
 
-.PHONY : src/server/MServidor.i
+.PHONY : src/MPointerGC/MPointerGC.i
 
 # target to preprocess a source file
-src/server/MServidor.cpp.i:
-	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.i
-.PHONY : src/server/MServidor.cpp.i
+src/MPointerGC/MPointerGC.cpp.i:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.i
+.PHONY : src/MPointerGC/MPointerGC.cpp.i
 
-src/server/MServidor.s: src/server/MServidor.cpp.s
+src/MPointerGC/MPointerGC.s: src/MPointerGC/MPointerGC.cpp.s
 
-.PHONY : src/server/MServidor.s
+.PHONY : src/MPointerGC/MPointerGC.s
 
 # target to generate assembly for a file
-src/server/MServidor.cpp.s:
-	$(MAKE) -f CMakeFiles/MPointer2.dir/build.make CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.s
-.PHONY : src/server/MServidor.cpp.s
+src/MPointerGC/MPointerGC.cpp.s:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.s
+.PHONY : src/MPointerGC/MPointerGC.cpp.s
+
+src/Ordenamientos/InsertionSort.o: src/Ordenamientos/InsertionSort.cpp.o
+
+.PHONY : src/Ordenamientos/InsertionSort.o
+
+# target to build an object file
+src/Ordenamientos/InsertionSort.cpp.o:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.o
+.PHONY : src/Ordenamientos/InsertionSort.cpp.o
+
+src/Ordenamientos/InsertionSort.i: src/Ordenamientos/InsertionSort.cpp.i
+
+.PHONY : src/Ordenamientos/InsertionSort.i
+
+# target to preprocess a source file
+src/Ordenamientos/InsertionSort.cpp.i:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.i
+.PHONY : src/Ordenamientos/InsertionSort.cpp.i
+
+src/Ordenamientos/InsertionSort.s: src/Ordenamientos/InsertionSort.cpp.s
+
+.PHONY : src/Ordenamientos/InsertionSort.s
+
+# target to generate assembly for a file
+src/Ordenamientos/InsertionSort.cpp.s:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.s
+.PHONY : src/Ordenamientos/InsertionSort.cpp.s
+
+src/Server/MCliente.o: src/Server/MCliente.cpp.o
+
+.PHONY : src/Server/MCliente.o
+
+# target to build an object file
+src/Server/MCliente.cpp.o:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.o
+.PHONY : src/Server/MCliente.cpp.o
+
+src/Server/MCliente.i: src/Server/MCliente.cpp.i
+
+.PHONY : src/Server/MCliente.i
+
+# target to preprocess a source file
+src/Server/MCliente.cpp.i:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.i
+.PHONY : src/Server/MCliente.cpp.i
+
+src/Server/MCliente.s: src/Server/MCliente.cpp.s
+
+.PHONY : src/Server/MCliente.s
+
+# target to generate assembly for a file
+src/Server/MCliente.cpp.s:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.s
+.PHONY : src/Server/MCliente.cpp.s
+
+src/Server/MServidor.o: src/Server/MServidor.cpp.o
+
+.PHONY : src/Server/MServidor.o
+
+# target to build an object file
+src/Server/MServidor.cpp.o:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/Server/MServidor.cpp.o
+.PHONY : src/Server/MServidor.cpp.o
+
+src/Server/MServidor.i: src/Server/MServidor.cpp.i
+
+.PHONY : src/Server/MServidor.i
+
+# target to preprocess a source file
+src/Server/MServidor.cpp.i:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/Server/MServidor.cpp.i
+.PHONY : src/Server/MServidor.cpp.i
+
+src/Server/MServidor.s: src/Server/MServidor.cpp.s
+
+.PHONY : src/Server/MServidor.s
+
+# target to generate assembly for a file
+src/Server/MServidor.cpp.s:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/Server/MServidor.cpp.s
+.PHONY : src/Server/MServidor.cpp.s
 
 # Help Target
 help:
@@ -237,21 +264,24 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... MPointer2"
-	@echo "... MPointerGC/MPointerGC.o"
-	@echo "... MPointerGC/MPointerGC.i"
-	@echo "... MPointerGC/MPointerGC.s"
+	@echo "... edit_cache"
+	@echo "... MPointer"
 	@echo "... MPointerQT/MPointerQT/main.o"
 	@echo "... MPointerQT/MPointerQT/main.i"
 	@echo "... MPointerQT/MPointerQT/main.s"
-	@echo "... src/server/MCliente.o"
-	@echo "... src/server/MCliente.i"
-	@echo "... src/server/MCliente.s"
-	@echo "... src/server/MServidor.o"
-	@echo "... src/server/MServidor.i"
-	@echo "... src/server/MServidor.s"
+	@echo "... src/MPointerGC/MPointerGC.o"
+	@echo "... src/MPointerGC/MPointerGC.i"
+	@echo "... src/MPointerGC/MPointerGC.s"
+	@echo "... src/Ordenamientos/InsertionSort.o"
+	@echo "... src/Ordenamientos/InsertionSort.i"
+	@echo "... src/Ordenamientos/InsertionSort.s"
+	@echo "... src/Server/MCliente.o"
+	@echo "... src/Server/MCliente.i"
+	@echo "... src/Server/MCliente.s"
+	@echo "... src/Server/MServidor.o"
+	@echo "... src/Server/MServidor.i"
+	@echo "... src/Server/MServidor.s"
 .PHONY : help
 
 

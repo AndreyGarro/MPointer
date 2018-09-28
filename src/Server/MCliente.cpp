@@ -30,7 +30,7 @@ int MCliente::conectarse() {
         mensaje[bytes] = '\0';
 
         if (bytes <= 0) {
-            perror("Se apagó el server");
+            perror("Se apagó el Server");
             return 0;
         }
 

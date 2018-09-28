@@ -8,7 +8,7 @@
 
 #include <stdlib.h>
 #include <iostream>
-#include "MPointerGC/MPointerGC.h"
+#include "src/MPointerGC/MPointerGC.h"
 
 
 template <class T>
@@ -48,7 +48,6 @@ template <class T>
 MPointer<T>::~MPointer() {
     MPointerGC *GC = MPointerGC::getInstance();
     GC->eliminarReferencia(this->ID);
-
 }
 
 /**
@@ -70,7 +69,7 @@ T &MPointer<T>::operator *() {
         if (this->ID == ""){
             this-> ID = GC->addPointer(data);
         }
-        cout << data <<endl;
+//        cout << data <<endl;
     }else {
         cout << "Primero debe activar MPointerGC" << endl;
     }
@@ -90,7 +89,7 @@ MPointer<T>& MPointer<T>::operator =(const MPointer<T> &a) {
         if (MPointerGC::isActive()) {
             MPointerGC *GC = MPointerGC::getInstance();
             this->data = a.data;
-            cout << a.data <<" "<< this->data << endl;
+//            cout << a.data <<" "<< this->data << endl;
             this->ID = a.ID;
             GC->addRepitedPointer(this->ID);
         } else {
@@ -115,7 +114,7 @@ T MPointer<T>::operator =(const T &a) {
         if (this->ID == "") {
             this->ID = GC->addPointer(data);
         }
-        cout << data <<endl;
+//        cout << data <<endl;
     }else{
         cout << "Primero debe activar MPointerGC"<<endl;
     }

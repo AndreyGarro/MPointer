@@ -8,50 +8,50 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/christian/Escritorio/MPointer2/cmake-build-debug"/>
+				<Option working_dir="/home/andrew/CLionProjects/MPointer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/christian/Escritorio/MPointer2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/christian/Escritorio/MPointer2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/christian/Escritorio/MPointer2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/christian/Escritorio/MPointer2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/christian/Escritorio/MPointer2/cmake-build-debug"/>
+				<Option working_dir="/home/andrew/CLionProjects/MPointer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/christian/Escritorio/MPointer2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/christian/Escritorio/MPointer2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/christian/Escritorio/MPointer2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/christian/Escritorio/MPointer2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/christian/Escritorio/MPointer2/cmake-build-debug"/>
+				<Option working_dir="/home/andrew/CLionProjects/MPointer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/christian/Escritorio/MPointer2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/christian/Escritorio/MPointer2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/christian/Escritorio/MPointer2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/christian/Escritorio/MPointer2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MPointer2">
-				<Option output="/home/christian/Escritorio/MPointer2/cmake-build-debug/MPointer2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/christian/Escritorio/MPointer2/cmake-build-debug"/>
+				<Option output="/home/andrew/CLionProjects/MPointer/cmake-build-debug/MPointer2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andrew/CLionProjects/MPointer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/christian/Escritorio/MPointer2/."/>
-					<Add directory="/home/christian/Escritorio/MPointer2/images"/>
-					<Add directory="/home/christian/Escritorio/MPointer2/Listas"/>
-					<Add directory="/home/christian/Escritorio/MPointer2/MPointerGC"/>
-					<Add directory="/home/christian/Escritorio/MPointer2/MPointerQT"/>
-					<Add directory="/home/christian/Escritorio/MPointer2/MPointerQT/MPointerQT"/>
-					<Add directory="/home/christian/Escritorio/MPointer2/src"/>
-					<Add directory="/home/christian/Escritorio/MPointer2/src/server"/>
+					<Add directory="/home/andrew/CLionProjects/MPointer/."/>
+					<Add directory="/home/andrew/CLionProjects/MPointer/images"/>
+					<Add directory="/home/andrew/CLionProjects/MPointer/Listas"/>
+					<Add directory="/home/andrew/CLionProjects/MPointer/MPointerGC"/>
+					<Add directory="/home/andrew/CLionProjects/MPointer/MPointerQT"/>
+					<Add directory="/home/andrew/CLionProjects/MPointer/MPointerQT/MPointerQT"/>
+					<Add directory="/home/andrew/CLionProjects/MPointer/src"/>
+					<Add directory="/home/andrew/CLionProjects/MPointer/src/server"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -62,27 +62,27 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/christian/Escritorio/MPointer2/cmake-build-debug/Makefile&quot;  VERBOSE=1 MPointer2"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/christian/Escritorio/MPointer2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/christian/Escritorio/MPointer2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/christian/Escritorio/MPointer2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 MPointer2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MPointer2/fast">
-				<Option output="/home/christian/Escritorio/MPointer2/cmake-build-debug/MPointer2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/christian/Escritorio/MPointer2/cmake-build-debug"/>
+				<Option output="/home/andrew/CLionProjects/MPointer/cmake-build-debug/MPointer2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andrew/CLionProjects/MPointer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/christian/Escritorio/MPointer2/."/>
-					<Add directory="/home/christian/Escritorio/MPointer2/images"/>
-					<Add directory="/home/christian/Escritorio/MPointer2/Listas"/>
-					<Add directory="/home/christian/Escritorio/MPointer2/MPointerGC"/>
-					<Add directory="/home/christian/Escritorio/MPointer2/MPointerQT"/>
-					<Add directory="/home/christian/Escritorio/MPointer2/MPointerQT/MPointerQT"/>
-					<Add directory="/home/christian/Escritorio/MPointer2/src"/>
-					<Add directory="/home/christian/Escritorio/MPointer2/src/server"/>
+					<Add directory="/home/andrew/CLionProjects/MPointer/."/>
+					<Add directory="/home/andrew/CLionProjects/MPointer/images"/>
+					<Add directory="/home/andrew/CLionProjects/MPointer/Listas"/>
+					<Add directory="/home/andrew/CLionProjects/MPointer/MPointerGC"/>
+					<Add directory="/home/andrew/CLionProjects/MPointer/MPointerQT"/>
+					<Add directory="/home/andrew/CLionProjects/MPointer/MPointerQT/MPointerQT"/>
+					<Add directory="/home/andrew/CLionProjects/MPointer/src"/>
+					<Add directory="/home/andrew/CLionProjects/MPointer/src/server"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -93,59 +93,59 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/christian/Escritorio/MPointer2/cmake-build-debug/Makefile&quot;  VERBOSE=1 MPointer2/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/christian/Escritorio/MPointer2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/christian/Escritorio/MPointer2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/christian/Escritorio/MPointer2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 MPointer2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/christian/Escritorio/MPointer2/Listas/ListaGC.h">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/Listas/ListaGC.h">
 			<Option target="MPointer2"/>
 		</Unit>
-		<Unit filename="/home/christian/Escritorio/MPointer2/Listas/listadoble.h">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/Listas/listadoble.h">
 			<Option target="MPointer2"/>
 		</Unit>
-		<Unit filename="/home/christian/Escritorio/MPointer2/MPointer.h">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/MPointer.h">
 			<Option target="MPointer2"/>
 		</Unit>
-		<Unit filename="/home/christian/Escritorio/MPointer2/MPointerGC/MPointerGC.cpp">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.cpp">
 			<Option target="MPointer2"/>
 		</Unit>
-		<Unit filename="/home/christian/Escritorio/MPointer2/MPointerGC/MPointerGC.h">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.h">
 			<Option target="MPointer2"/>
 		</Unit>
-		<Unit filename="/home/christian/Escritorio/MPointer2/MPointerQT/MPointerQT/main.cpp">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/MPointerQT/MPointerQT/main.cpp">
 			<Option target="MPointer2"/>
 		</Unit>
-		<Unit filename="/home/christian/Escritorio/MPointer2/images/Diagrama I Iteración.jpeg">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/images/Diagrama I Iteración.jpeg">
 			<Option target="MPointer2"/>
 		</Unit>
-		<Unit filename="/home/christian/Escritorio/MPointer2/images/Diagrama II Iteracion.jpeg">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/images/Diagrama II Iteracion.jpeg">
 			<Option target="MPointer2"/>
 		</Unit>
-		<Unit filename="/home/christian/Escritorio/MPointer2/images/diagramaClases.jpg">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/images/diagramaClases.jpg">
 			<Option target="MPointer2"/>
 		</Unit>
-		<Unit filename="/home/christian/Escritorio/MPointer2/images/diagramaComponentes.jpg">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/images/diagramaComponentes.jpg">
 			<Option target="MPointer2"/>
 		</Unit>
-		<Unit filename="/home/christian/Escritorio/MPointer2/images/listas.jpg">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/images/listas.jpg">
 			<Option target="MPointer2"/>
 		</Unit>
-		<Unit filename="/home/christian/Escritorio/MPointer2/src/server/MCliente.cpp">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/src/server/MCliente.cpp">
 			<Option target="MPointer2"/>
 		</Unit>
-		<Unit filename="/home/christian/Escritorio/MPointer2/src/server/MCliente.h">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/src/server/MCliente.h">
 			<Option target="MPointer2"/>
 		</Unit>
-		<Unit filename="/home/christian/Escritorio/MPointer2/src/server/MServidor.cpp">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/src/server/MServidor.cpp">
 			<Option target="MPointer2"/>
 		</Unit>
-		<Unit filename="/home/christian/Escritorio/MPointer2/src/server/MServidor.h">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/src/server/MServidor.h">
 			<Option target="MPointer2"/>
 		</Unit>
-		<Unit filename="/home/christian/Escritorio/MPointer2/CMakeLists.txt">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
