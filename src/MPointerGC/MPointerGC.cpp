@@ -5,6 +5,7 @@
 //Includes
 #include <iostream>
 #include "MPointerGC.h"
+#include "../MPointer.h"
 #include <chrono>
 #include <thread>
 //Fin de Includes
@@ -14,7 +15,6 @@
  */
 bool MPointerGC::active = false;
 MPointerGC* MPointerGC::instance = nullptr;
-
 /**
  * Revisa si la ya fue instanciado el singleton
  * @return true o false
@@ -61,7 +61,7 @@ string MPointerGC::generarID() {
  * @return el ID del dato repetido
  */
 void MPointerGC::addRepitedPointer(string id) {
-    this->listaMPointer.aumentarRef(id);
+    listaMPointer.aumentarRef(id);
 }
 
 /**
@@ -80,11 +80,36 @@ void MPointerGC::imprimirLista() {
  * @param id ID del dato al que se le ha eliminado la referencia
  */
 void MPointerGC::eliminarReferencia(string id) {
-    if(this->listaMPointer.getCantRefPorID(id) == 1){
-        this->listaMPointer.eliminarNodo(id);
+    if(listaMPointer.getCantRefPorID(id) == 0){
+        return;
     }
     else {
-        this->listaMPointer.disminuirRef(id);
+        listaMPointer.disminuirRef(id);
     }
+}
+
+/**
+ * Thread encargado de revisar las referencias de la lista y eliminarlos si
+ * ya no son referenciados
+ */
+void MPointerGC::revisaLista() {
+    cout << "Acabé la revisión una vez" << endl;
+    while(isActive()) {
+        for (int i = 0; i < listaMPointer.getLenght(); i++) {
+            if (listaMPointer.getNodo(i).cantRef == 0) {
+                listaMPointer.eliminarNodo(i);
+            }
+        }
+        std::this_thread::sleep_for(std::chrono::milliseconds(1));
+    }
+}
+
+void MPointerGC::threadFunc(MPointerGC *param) {
+    ((MPointerGC*)param)->revisaLista();
+}
+
+void MPointerGC::stopThread() {
+    this->active = false;
+    thread_m->join();
 }
 

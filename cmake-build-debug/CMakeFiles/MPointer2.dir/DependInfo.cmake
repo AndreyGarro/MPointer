@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/christian/Escritorio/MPointer2/MPointerGC/MPointerGC.cpp" "/home/christian/Escritorio/MPointer2/cmake-build-debug/CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.o"
-  "/home/christian/Escritorio/MPointer2/MPointerQT/MPointerQT/main.cpp" "/home/christian/Escritorio/MPointer2/cmake-build-debug/CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.o"
-  "/home/christian/Escritorio/MPointer2/src/server/MCliente.cpp" "/home/christian/Escritorio/MPointer2/cmake-build-debug/CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.o"
-  "/home/christian/Escritorio/MPointer2/src/server/MServidor.cpp" "/home/christian/Escritorio/MPointer2/cmake-build-debug/CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.o"
+  "/home/andrew/CLionProjects/MPointer/MPointerGC/MPointerGC.cpp" "/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.o"
+  "/home/andrew/CLionProjects/MPointer/MPointerQT/MPointerQT/main.cpp" "/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.o"
+  "/home/andrew/CLionProjects/MPointer/src/server/MCliente.cpp" "/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.o"
+  "/home/andrew/CLionProjects/MPointer/src/server/MServidor.cpp" "/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

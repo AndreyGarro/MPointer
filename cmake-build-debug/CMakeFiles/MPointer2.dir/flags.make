@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/christian/Escritorio/MPointer2/. -I/home/christian/Escritorio/MPointer2/images -I/home/christian/Escritorio/MPointer2/Listas -I/home/christian/Escritorio/MPointer2/MPointerGC -I/home/christian/Escritorio/MPointer2/MPointerQT -I/home/christian/Escritorio/MPointer2/MPointerQT/MPointerQT -I/home/christian/Escritorio/MPointer2/src -I/home/christian/Escritorio/MPointer2/src/server 
+CXX_INCLUDES = -I/home/andrew/CLionProjects/MPointer/. -I/home/andrew/CLionProjects/MPointer/images -I/home/andrew/CLionProjects/MPointer/Listas -I/home/andrew/CLionProjects/MPointer/MPointerGC -I/home/andrew/CLionProjects/MPointer/MPointerQT -I/home/andrew/CLionProjects/MPointer/MPointerQT/MPointerQT -I/home/andrew/CLionProjects/MPointer/src -I/home/andrew/CLionProjects/MPointer/src/server 
 

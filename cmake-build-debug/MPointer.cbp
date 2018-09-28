@@ -8,42 +8,46 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/cmake-build-debug"/>
+				<Option working_dir="/home/andrew/CLionProjects/MPointer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/MPointer/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/MPointer/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/MPointer/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/MPointer/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/cmake-build-debug"/>
+				<Option working_dir="/home/andrew/CLionProjects/MPointer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/MPointer/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/MPointer/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/MPointer/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/MPointer/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/cmake-build-debug"/>
+				<Option working_dir="/home/andrew/CLionProjects/MPointer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/MPointer/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/MPointer/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/MPointer/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/MPointer/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MPointer">
-				<Option output="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/cmake-build-debug/MPointer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/cmake-build-debug"/>
+				<Option output="/home/andrew/CLionProjects/MPointer/cmake-build-debug/MPointer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andrew/CLionProjects/MPointer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/andrew/CLionProjects/MPointer/."/>
+					<Add directory="/home/andrew/CLionProjects/MPointer/src/Listas"/>
+					<Add directory="/home/andrew/CLionProjects/MPointer/src/MPointerGC"/>
+					<Add directory="/home/andrew/CLionProjects/MPointer/src/Server"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -54,19 +58,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/MPointer/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 MPointer"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/MPointer/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/MPointer/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/MPointer/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 MPointer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MPointer/fast">
-				<Option output="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/cmake-build-debug/MPointer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/cmake-build-debug"/>
+				<Option output="/home/andrew/CLionProjects/MPointer/cmake-build-debug/MPointer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andrew/CLionProjects/MPointer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/andrew/CLionProjects/MPointer/."/>
+					<Add directory="/home/andrew/CLionProjects/MPointer/src/Listas"/>
+					<Add directory="/home/andrew/CLionProjects/MPointer/src/MPointerGC"/>
+					<Add directory="/home/andrew/CLionProjects/MPointer/src/Server"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -77,41 +85,65 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/MPointer/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 MPointer/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/MPointer/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/MPointer/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/MPointer/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 MPointer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/andrew/CLionProjects/MPointer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/Listas/ListaGC.h">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/MPointerQT/MPointerQT/main.cpp">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/MPointer.h">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/images/Diagrama I Iteración.jpeg">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/MPointerGC/MPointerGC.cpp">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/images/Diagrama II Iteracion.jpeg">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/MPointerGC/MPointerGC.h">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/images/diagramaClases.jpg">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/main.cpp">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/images/diagramaComponentes.jpg">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/src/server/MCliente.cpp">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/images/listas.jpg">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/src/server/MCliente.h">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/src/Listas/ListaDoble.h">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/src/server/MServidor.cpp">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/src/Listas/ListaGC.h">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/src/server/MServidor.h">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/src/MPointer.h">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointer/MPointer/CMakeLists.txt">
+		<Unit filename="/home/andrew/CLionProjects/MPointer/src/MPointerGC/MPointerGC.cpp">
+			<Option target="MPointer"/>
+		</Unit>
+		<Unit filename="/home/andrew/CLionProjects/MPointer/src/MPointerGC/MPointerGC.h">
+			<Option target="MPointer"/>
+		</Unit>
+		<Unit filename="/home/andrew/CLionProjects/MPointer/src/Ordenamientos/InsertionSort.cpp">
+			<Option target="MPointer"/>
+		</Unit>
+		<Unit filename="/home/andrew/CLionProjects/MPointer/src/Ordenamientos/InsertionSort.h">
+			<Option target="MPointer"/>
+		</Unit>
+		<Unit filename="/home/andrew/CLionProjects/MPointer/src/Server/MCliente.cpp">
+			<Option target="MPointer"/>
+		</Unit>
+		<Unit filename="/home/andrew/CLionProjects/MPointer/src/Server/MCliente.h">
+			<Option target="MPointer"/>
+		</Unit>
+		<Unit filename="/home/andrew/CLionProjects/MPointer/src/Server/MServidor.cpp">
+			<Option target="MPointer"/>
+		</Unit>
+		<Unit filename="/home/andrew/CLionProjects/MPointer/src/Server/MServidor.h">
+			<Option target="MPointer"/>
+		</Unit>
+		<Unit filename="/home/andrew/CLionProjects/MPointer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

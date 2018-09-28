@@ -64,20 +64,17 @@ public:
      */
     void insertarNodo(int *dato, string ID){
         auto *nuevo = new nodo<T>();
+        nuevo->dato = dato;
         if(this->primero == nullptr){
-            nuevo->dato = dato;
             nuevo->ID = ID;
             primero = nuevo;
         }
         else{
             nodo<T> *aux;
             aux = this->primero;
-            int x = 0;
             while(aux->siguiente){
-                x++;
                 aux = aux->siguiente;
             }
-            nuevo->dato = dato;
             nuevo->ID = ID;
             aux->siguiente = nuevo;
         }

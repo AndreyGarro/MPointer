@@ -1,30 +1,27 @@
 cmake_minimum_required(VERSION 3.12)
-project(MPointer2)
+project(MPointer)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 11)
 
 include_directories(.)
-include_directories(images)
-include_directories(Listas)
-include_directories(MPointerGC)
-include_directories(MPointerQT)
-include_directories(MPointerQT/MPointerQT)
-include_directories(src)
-include_directories(src/server)
+include_directories(src/Listas)
+include_directories(src/MPointerGC)
+include_directories(src/Server)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
 
-add_executable(MPointer2
+add_executable(MPointer
         "images/Diagrama I Iteración.jpeg"
         "images/Diagrama II Iteracion.jpeg"
         images/diagramaClases.jpg
         images/diagramaComponentes.jpg
         images/listas.jpg
-        Listas/listadoble.h
-        Listas/ListaGC.h
-        MPointerGC/MPointerGC.cpp
-        MPointerGC/MPointerGC.h
+        src/Listas/ListaDoble.h
+        src/Listas/ListaGC.h
+        src/MPointerGC/MPointerGC.cpp
+        src/MPointerGC/MPointerGC.h
         MPointerQT/MPointerQT/main.cpp
-        src/server/MCliente.cpp
-        src/server/MCliente.h
-        src/server/MServidor.cpp
-        src/server/MServidor.h
-        MPointer.h)
+        src/Server/MCliente.cpp
+        src/Server/MCliente.h
+        src/Server/MServidor.cpp
+        src/Server/MServidor.h
+        src/MPointer.h src/Ordenamientos/InsertionSort.cpp src/Ordenamientos/InsertionSort.h)

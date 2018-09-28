@@ -9,34 +9,39 @@
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
+#include <thread>
+#include <pthread.h>
 
-
-
-
-
-#include "../Listas/ListaGC.h"
+#include "src/Listas/ListaGC.h"
 
 using namespace std;
 
 class MPointerGC {
 private:
-    MPointerGC() { cout << "Se creo una instancia nueva!\n"; };
+    //Atributos
+    static bool active;
+    static MPointerGC * instance;
+    ListaGC<int> listaMPointer;
+    string generarID();
+    int ID = -1;
+    thread * thread_m;
+    //
 
-    ~MPointerGC() {}
+    MPointerGC() {
+        thread_m = new thread(threadFunc, this);
+        cout << "Se creo una instancia nueva!\n";
+    };
 
     MPointerGC(const MPointerGC &);
 
-    static bool active;
-
-    static MPointerGC * instance;
-
-    ListaGC<int> listaMPointer;
-
-    string generarID();
-
-    int ID = -1;
-
 public:
+
+    ~MPointerGC() {}
+
+    void stopThread();
+
+    static void threadFunc(MPointerGC * param);
+
     static MPointerGC *getInstance();
 
     static bool isActive();
@@ -48,6 +53,8 @@ public:
     void imprimirLista();
 
     void eliminarReferencia(string id);
+
+    void revisaLista();
 };
 
 #endif //MPOINTER_MPOINTERGC_H
