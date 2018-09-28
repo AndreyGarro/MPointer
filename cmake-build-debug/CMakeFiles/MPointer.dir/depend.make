@@ -6,12 +6,14 @@ CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o: .././src/Listas/ListaG
 CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o: .././src/MPointer.h
 CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o: .././src/MPointerGC/MPointerGC.h
 CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o: .././src/Ordenamientos/InsertionSort.h
+CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o: .././src/Server/MCliente.h
 CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o: ../src/Listas/ListaDoble.h
 CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o: ../src/MPointerGC/MPointerGC.h
 CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o: ../MPointerQT/MPointerQT/main.cpp
 
 CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.o: .././src/Listas/ListaGC.h
 CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.o: .././src/MPointerGC/MPointerGC.h
+CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.o: .././src/Server/MCliente.h
 CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.o: ../src/MPointer.h
 CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.o: ../src/MPointerGC/MPointerGC.cpp
 CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.o: ../src/MPointerGC/MPointerGC.h
@@ -20,6 +22,7 @@ CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.o: .././src/Listas/L
 CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.o: .././src/Listas/ListaGC.h
 CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.o: .././src/MPointer.h
 CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.o: .././src/MPointerGC/MPointerGC.h
+CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.o: .././src/Server/MCliente.h
 CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.o: ../src/Ordenamientos/InsertionSort.cpp
 CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.o: ../src/Ordenamientos/InsertionSort.h
 

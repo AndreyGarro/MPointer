@@ -7,12 +7,14 @@ CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o
  .././src/MPointer.h
  .././src/MPointerGC/MPointerGC.h
  .././src/Ordenamientos/InsertionSort.h
+ .././src/Server/MCliente.h
  ../src/Listas/ListaDoble.h
  ../src/MPointerGC/MPointerGC.h
  /home/andrew/CLionProjects/MPointer/MPointerQT/MPointerQT/main.cpp
 CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.o
  .././src/Listas/ListaGC.h
  .././src/MPointerGC/MPointerGC.h
+ .././src/Server/MCliente.h
  /home/andrew/CLionProjects/MPointer/src/MPointer.h
  /home/andrew/CLionProjects/MPointer/src/MPointerGC/MPointerGC.cpp
  /home/andrew/CLionProjects/MPointer/src/MPointerGC/MPointerGC.h
@@ -21,6 +23,7 @@ CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.o
  .././src/Listas/ListaGC.h
  .././src/MPointer.h
  .././src/MPointerGC/MPointerGC.h
+ .././src/Server/MCliente.h
  /home/andrew/CLionProjects/MPointer/src/Ordenamientos/InsertionSort.cpp
  /home/andrew/CLionProjects/MPointer/src/Ordenamientos/InsertionSort.h
 CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.o
