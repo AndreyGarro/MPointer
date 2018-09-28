@@ -16,16 +16,16 @@ class MPointer {
 private:
     T *data;
 
-
-
 public:
     std::string ID;
+    std::string IDserver;
     MPointer();
     ~MPointer();
     T operator &();
     T& operator *();
     MPointer<T>& operator =(const MPointer<T> &);
     T operator =(const T&);
+    void MPointer_init_();
 
 };
 
@@ -35,8 +35,13 @@ public:
  */
 template <class T>
 MPointer<T>::MPointer(){
-    data = (T*)malloc(sizeof(T));
-    ID = "";
+    if(MPointerGC::isActive()) {
+        data = (T *) malloc(sizeof(T));
+        ID = "";
+    }
+    else{
+        cout<<"Primero debe activar MPointerGC o el Servidor"<<endl;
+    }
 }
 
 /**
@@ -69,9 +74,8 @@ T &MPointer<T>::operator *() {
         if (this->ID == ""){
             this-> ID = GC->addPointer(data);
         }
-//        cout << data <<endl;
     }else {
-        cout << "Primero debe activar MPointerGC" << endl;
+        cout << "Primero debe activar MPointerGC o el Servidor" << endl;
     }
     return *this->data;
 }
@@ -89,11 +93,10 @@ MPointer<T>& MPointer<T>::operator =(const MPointer<T> &a) {
         if (MPointerGC::isActive()) {
             MPointerGC *GC = MPointerGC::getInstance();
             this->data = a.data;
-//            cout << a.data <<" "<< this->data << endl;
             this->ID = a.ID;
             GC->addRepitedPointer(this->ID);
         } else {
-            cout <<  "Primero debe activar MPointerGC"<<endl;
+            cout <<  "Primero debe activar MPointerGC o el Servidor"<<endl;
         }
     }
     return  *this;
@@ -114,11 +117,17 @@ T MPointer<T>::operator =(const T &a) {
         if (this->ID == "") {
             this->ID = GC->addPointer(data);
         }
-//        cout << data <<endl;
     }else{
-        cout << "Primero debe activar MPointerGC"<<endl;
+        cout << "Primero debe activar MPointerGC o el Servidor"<<endl;
     }
     return *this->data;
+
 }
+
+template<class T>
+void MPointer<T>::MPointer_init_() {
+
+}
+
 #endif //MPOINTER_MPOINTER_H
 
