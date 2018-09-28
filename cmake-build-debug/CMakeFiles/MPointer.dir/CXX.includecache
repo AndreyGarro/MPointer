@@ -23,6 +23,8 @@ stdlib.h
 -
 iostream
 -
+src/Server/MCliente.h
+-
 src/MPointerGC/MPointerGC.h
 .././src/src/MPointerGC/MPointerGC.h
 
@@ -42,6 +44,18 @@ src/Listas/ListaGC.h
 
 .././src/Ordenamientos/InsertionSort.h
 src/Listas/ListaDoble.h
+-
+
+.././src/Server/MCliente.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+arpa/inet.h
+-
+sys/socket.h
 -
 
 ../src/Listas/ListaDoble.h
@@ -75,4 +89,48 @@ src/MPointer.h
 /home/andrew/CLionProjects/MPointer/MPointerQT/Listas/ListaDoble.h
 ../MPointerGC/MPointerGC.h
 /home/andrew/CLionProjects/MPointer/MPointerQT/MPointerGC/MPointerGC.h
+
+/home/andrew/CLionProjects/MPointer/src/MPointer.h
+stdlib.h
+-
+iostream
+-
+src/Server/MCliente.h
+-
+src/MPointerGC/MPointerGC.h
+/home/andrew/CLionProjects/MPointer/src/src/MPointerGC/MPointerGC.h
+
+/home/andrew/CLionProjects/MPointer/src/MPointerGC/MPointerGC.cpp
+iostream
+-
+MPointerGC.h
+/home/andrew/CLionProjects/MPointer/src/MPointerGC/MPointerGC.h
+../MPointer.h
+/home/andrew/CLionProjects/MPointer/src/MPointer.h
+chrono
+-
+thread
+-
+
+/home/andrew/CLionProjects/MPointer/src/MPointerGC/MPointerGC.h
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+thread
+-
+pthread.h
+-
+src/Listas/ListaGC.h
+/home/andrew/CLionProjects/MPointer/src/MPointerGC/src/Listas/ListaGC.h
+
+/home/andrew/CLionProjects/MPointer/src/Ordenamientos/InsertionSort.cpp
+InsertionSort.h
+/home/andrew/CLionProjects/MPointer/src/Ordenamientos/InsertionSort.h
+
+/home/andrew/CLionProjects/MPointer/src/Ordenamientos/InsertionSort.h
+src/Listas/ListaDoble.h
+-
 
