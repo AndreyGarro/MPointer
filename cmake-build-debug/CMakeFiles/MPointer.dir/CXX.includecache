@@ -6,11 +6,25 @@
 
 #IncludeRegexTransform: 
 
+.././src/Listas/ListaDoble.h
+src/MPointer.h
+.././src/Listas/src/MPointer.h
+iostream
+-
+
 .././src/Listas/ListaGC.h
 iostream
 -
 string
 -
+
+.././src/MPointer.h
+stdlib.h
+-
+iostream
+-
+src/MPointerGC/MPointerGC.h
+.././src/src/MPointerGC/MPointerGC.h
 
 .././src/MPointerGC/MPointerGC.h
 iostream
@@ -26,27 +40,17 @@ pthread.h
 src/Listas/ListaGC.h
 .././src/MPointerGC/src/Listas/ListaGC.h
 
-/home/andrew/CLionProjects/MPointer/src/MPointer.h
-stdlib.h
--
-iostream
--
-src/MPointerGC/MPointerGC.h
-/home/andrew/CLionProjects/MPointer/src/src/MPointerGC/MPointerGC.h
-
-/home/andrew/CLionProjects/MPointer/src/MPointerGC/MPointerGC.cpp
-iostream
--
-MPointerGC.h
-/home/andrew/CLionProjects/MPointer/src/MPointerGC/MPointerGC.h
-../MPointer.h
-/home/andrew/CLionProjects/MPointer/src/MPointer.h
-chrono
--
-thread
+.././src/Ordenamientos/InsertionSort.h
+src/Listas/ListaDoble.h
 -
 
-/home/andrew/CLionProjects/MPointer/src/MPointerGC/MPointerGC.h
+../src/Listas/ListaDoble.h
+src/MPointer.h
+../src/Listas/src/MPointer.h
+iostream
+-
+
+../src/MPointerGC/MPointerGC.h
 iostream
 -
 stdio.h
@@ -58,5 +62,17 @@ thread
 pthread.h
 -
 src/Listas/ListaGC.h
-/home/andrew/CLionProjects/MPointer/src/MPointerGC/src/Listas/ListaGC.h
+../src/MPointerGC/src/Listas/ListaGC.h
+
+/home/andrew/CLionProjects/MPointer/MPointerQT/MPointerQT/main.cpp
+iostream
+-
+src/Ordenamientos/InsertionSort.h
+-
+src/MPointer.h
+/home/andrew/CLionProjects/MPointer/MPointerQT/MPointerQT/src/MPointer.h
+../Listas/ListaDoble.h
+/home/andrew/CLionProjects/MPointer/MPointerQT/Listas/ListaDoble.h
+../MPointerGC/MPointerGC.h
+/home/andrew/CLionProjects/MPointer/MPointerQT/MPointerGC/MPointerGC.h
 

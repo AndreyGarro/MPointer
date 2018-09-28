@@ -29,19 +29,30 @@ int main() {
     *ptr6 = 1;
     *ptr7 = 8;
 
-    lista->add(ptr1);
-    lista->add(ptr2);
-    lista->add(ptr3);
-    lista->add(ptr4);
-    lista->add(ptr5);
-    lista->add(ptr6);
-    lista->add(ptr7);
+//    lista->add(ptr1);
+//    lista->add(ptr2);
+//    lista->add(ptr3);
+//    lista->add(ptr4);
+//    lista->add(ptr5);
+//    lista->add(ptr6);
+//    lista->add(ptr7);
+//
+//    cout<<endl;
+//
+//    ordenamiento->insertionSort(*lista);
+//
+//    ordenamiento->PrintArray(*lista);
+
+    GC->imprimirLista();
+
+    cout << endl;
+
+    ptr1.~MPointer();
+
+    GC->imprimirLista();
 
     cout<<endl;
 
-    ordenamiento->insertionSort(*lista);
-
-    ordenamiento->PrintArray(*lista);
-
+    GC->imprimirLista();
     GC->stopThread();
 }
