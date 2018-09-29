@@ -16,44 +16,44 @@ template <class T>
 class ListaDoble{
 
     int lenght;
-    nodoD<MPointer<int>> *head;
+    nodoD<MPointer<int>> *primero;
 
 public :
     ListaDoble(){
-        head = nullptr;
+        primero = nullptr;
     }
 
     void add(T p_data){
         auto *nuevo = new nodoD<T>;
         nuevo->data = p_data;
-        if (this->head == nullptr){
-            head = nuevo;
+        if (this->primero == nullptr){
+            primero = nuevo;
         }
         else{
-            nodoD<T> *tmp;
-            tmp = head;
-            while(tmp->next){
-                tmp = tmp->next;
+            nodoD<T> *temp;
+            temp = primero;
+            while(temp->next){
+                temp = temp->next;
             }
-            tmp->next = nuevo;
-            nuevo->prev = tmp;
+            temp->next = nuevo;
+            nuevo->prev = temp;
         }
         this->lenght ++;
     }
 
     T getMPointer(int pos){
-        auto *tmp = head;
+        auto *temp = primero;
         for(int i = 0; i < pos; i++){
-            tmp = tmp->next;
+            temp = temp->next;
         }
-        return tmp->data;
+        return temp->data;
     }
 
     void printList(){
-        auto *tmp = head;
+        auto *temp = primero;
         for(int i = 0; i < this->lenght; i++){
-            cout<<tmp->data.operator&()<<endl;
-            tmp = tmp->next;
+            cout<<temp->data.operator&()<<endl;
+            temp = temp->next;
         }
     }
 

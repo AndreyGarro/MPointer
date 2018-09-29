@@ -77,7 +77,7 @@ T &MPointer<T>::operator *() {
     if(MPointerGC::isActive()) {
         MPointerGC *GC =MPointerGC::getInstance();
         if (this->ID == ""){
-            this-> ID = GC->addPointer(data);
+            this->ID = GC->addPointer(data);
         }
     }
 //    else if(){}

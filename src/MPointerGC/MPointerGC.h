@@ -21,11 +21,12 @@ private:
     //Atributos
     static bool active;
     static MPointerGC * instance;
-    ListaGC<int> listaMPointer;
-    string generarID();
+    ListaGC<void> listaMPointer;
     int ID = -1;
     thread * thread_m;
     //
+
+    string generarID();
 
     MPointerGC() {
         thread_m = new thread(threadFunc, this);
@@ -35,7 +36,6 @@ private:
     MPointerGC(const MPointerGC &);
 
 public:
-
     ~MPointerGC() {}
 
     void stopThread();
@@ -46,7 +46,8 @@ public:
 
     static bool isActive();
 
-    std::string addPointer(int *nuevo);
+    template <typename P>
+    std::string addPointer(P *nuevo);
 
     void addRepitedPointer(string id);
 
@@ -56,5 +57,17 @@ public:
 
     void revisaLista();
 };
+
+/**
+ * Agrega la nueva dirección de memoria del puntero añadido
+ * @param nuevoPTR dirección de memoria del nuevo dato del pointer
+ * @return ID asignado a ese dato
+ */
+ template <typename P>
+string MPointerGC::addPointer(P *nuevoPTR) {
+    string nuevoID = MPointerGC::generarID();
+    listaMPointer.insertarNodo(nuevoPTR, nuevoID);
+    return nuevoID;
+}
 
 #endif //MPOINTER_MPOINTERGC_H
