@@ -16,7 +16,7 @@ using namespace std;
  */
 template <class T>
 struct nodo{
-    int *dato;
+    T *dato;
     int cantRef;
     string ID;
     nodo<T> *siguiente;
@@ -62,7 +62,7 @@ public:
      * @param dato dirección de memoria a guardar como dato
      * @param ID ID asignado a este dato
      */
-    void insertarNodo(int *dato, string ID){
+    void insertarNodo(T *dato, string ID){
         auto *nuevo = new nodo<T>();
         nuevo->dato = dato;
         if(this->primero == nullptr){
@@ -87,7 +87,7 @@ public:
      * @param pos posición donde se encuentra el dato
      * @return dato
      */
-    int* getDato(int pos){
+    T* getDato(int pos){
         int i = 0;
         nodo<T> *aux = primero;
         while (i<pos){

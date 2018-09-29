@@ -15,6 +15,7 @@
  */
 bool MPointerGC::active = false;
 MPointerGC* MPointerGC::instance = nullptr;
+
 /**
  * Revisa si la ya fue instanciado el singleton
  * @return true o false
@@ -35,16 +36,6 @@ MPointerGC *MPointerGC::getInstance() {
     return instance;
 }
 
-/**
- * Agrega la nueva dirección de memoria del puntero añadido
- * @param nuevoPTR dirección de memoria del nuevo dato del pointer
- * @return ID asignado a ese dato
- */
-string MPointerGC::addPointer(int *nuevoPTR) {
-    string nuevoID = generarID();
-    listaMPointer.insertarNodo(nuevoPTR, nuevoID);
-    return nuevoID;
-}
 
 /**
  * Genera los ID de los nuevos datos agregados a la lista
