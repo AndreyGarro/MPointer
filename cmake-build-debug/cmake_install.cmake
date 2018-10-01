@@ -1,4 +1,4 @@
-# Install script for directory: /home/andrew/CLionProjects/MPointer
+# Install script for directory: /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/andrew/CLionProjects/MPointer/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

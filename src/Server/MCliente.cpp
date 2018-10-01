@@ -4,36 +4,90 @@
 
 #include "MCliente.h"
 
-int MCliente::conectarse() {
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <arpa/inet.h>
+#include <sys/socket.h>
+#include <unistd.h>
 
+MCliente *MCliente::instance = 0;
+bool MCliente::activo = 0;
+
+rapidjson::Document MCliente::conectar(std::string json) {
+    struct sockaddr_in direccionSC = {0};
     direccionSC.sin_family = AF_INET;
-    direccionSC.sin_addr.s_addr = inet_addr("127.0.0.1");
-    direccionSC.sin_port = htons(5555);
+    direccionSC.sin_addr.s_addr = inet_addr(IP.c_str());
+    direccionSC.sin_port = htons((u_int16_t) this->PORT);
 
-    cliente = socket(AF_INET, SOCK_STREAM, 0);
+    int cliente = socket(AF_INET, SOCK_STREAM, 0);
+
     if (connect(cliente, (struct sockaddr *) &direccionSC, sizeof(direccionSC)) != 0) {
         perror("No se pudo conectar");
-        return 1;
+        return 0;
     }
 
     char mensaje[1000];
+
     ssize_t bytes = 0;
 
-    while (1) {
+    // Envio del mensaje al servidor
+    send(cliente, json.c_str(), json.length(), 0);
 
-        scanf("%s", mensaje);
+    bytes = recv(cliente, mensaje, 1000, 0);
 
-        send(cliente, mensaje, strlen(mensaje), 0);
+    mensaje[bytes] = '\0';
 
-        bytes = recv(cliente, mensaje, 1000, 0);
+    if (bytes <= 0) {
+        perror("Se apagó el server");
+        return 0;
+    }
 
-        mensaje[bytes] = '\0';
+    close(cliente);
+    return jsonMaker.parsearJSON(mensaje);
+}
 
-        if (bytes <= 0) {
-            perror("Se apagó el Server");
-            return 0;
-        }
+std::string MCliente::createMPointer() {
+    return std::__cxx11::string();
+}
 
-        printf("Mensaje recibido: %s\n", mensaje);
+MCliente::MCliente(std::string ip, int port) {
+    this->IP = ip;
+    this->PORT = port;
+}
+
+MCliente *MCliente::getInstance(std::string ip, int port) {
+    if (!instance) {
+        activo = true;
+        instance = new MCliente(ip, port);
+    }
+    return instance;
+}
+
+std::string &MCliente::getIP() {
+    return IP;
+}
+
+void MCliente::setIP(std::string IP) {
+    this->IP = IP;
+}
+
+int MCliente::getPORT() {
+    return PORT;
+}
+
+void MCliente::setPORT(int PORT) {
+    this->PORT = PORT;
+}
+
+bool MCliente::esActivo() {
+    return activo;
+}
+
+MCliente *MCliente::getInstance() {
+    if (activo) {
+        return instance;
+    } else {
+        return nullptr;
     }
 }

@@ -1,0 +1,1 @@
+/usr/bin/c++   -fpermissive -g   CMakeFiles/MServidor.dir/main.cpp.o CMakeFiles/MServidor.dir/Server/Server.cpp.o CMakeFiles/MServidor.dir/Server/JSONMaker.cpp.o CMakeFiles/MServidor.dir/Server/Memoria.cpp.o CMakeFiles/MServidor.dir/Server/MapNode.cpp.o  -o MServidor 

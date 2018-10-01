@@ -43,10 +43,10 @@ RM = /snap/clion/39/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andrew/CLionProjects/MPointer
+CMAKE_SOURCE_DIR = "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andrew/CLionProjects/MPointer/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MPointer.dir/depend.make
@@ -59,76 +59,90 @@ include CMakeFiles/MPointer.dir/flags.make
 
 CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.o: CMakeFiles/MPointer.dir/flags.make
 CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.o: ../src/MPointerGC/MPointerGC.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.o -c /home/andrew/CLionProjects/MPointer/src/MPointerGC/MPointerGC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.o -c "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/MPointerGC/MPointerGC.cpp"
 
 CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/CLionProjects/MPointer/src/MPointerGC/MPointerGC.cpp > CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/MPointerGC/MPointerGC.cpp" > CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.i
 
 CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/CLionProjects/MPointer/src/MPointerGC/MPointerGC.cpp -o CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/MPointerGC/MPointerGC.cpp" -o CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.s
 
 CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o: CMakeFiles/MPointer.dir/flags.make
 CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o: ../MPointerQT/MPointerQT/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o -c /home/andrew/CLionProjects/MPointer/MPointerQT/MPointerQT/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o -c "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointerQT/MPointerQT/main.cpp"
 
 CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/CLionProjects/MPointer/MPointerQT/MPointerQT/main.cpp > CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointerQT/MPointerQT/main.cpp" > CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.i
 
 CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/CLionProjects/MPointer/MPointerQT/MPointerQT/main.cpp -o CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointerQT/MPointerQT/main.cpp" -o CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.s
 
 CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.o: CMakeFiles/MPointer.dir/flags.make
 CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.o: ../src/Server/MCliente.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.o -c /home/andrew/CLionProjects/MPointer/src/Server/MCliente.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.o -c "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Server/MCliente.cpp"
 
 CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/CLionProjects/MPointer/src/Server/MCliente.cpp > CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Server/MCliente.cpp" > CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.i
 
 CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/CLionProjects/MPointer/src/Server/MCliente.cpp -o CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.s
-
-CMakeFiles/MPointer.dir/src/Server/MServidor.cpp.o: CMakeFiles/MPointer.dir/flags.make
-CMakeFiles/MPointer.dir/src/Server/MServidor.cpp.o: ../src/Server/MServidor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MPointer.dir/src/Server/MServidor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPointer.dir/src/Server/MServidor.cpp.o -c /home/andrew/CLionProjects/MPointer/src/Server/MServidor.cpp
-
-CMakeFiles/MPointer.dir/src/Server/MServidor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPointer.dir/src/Server/MServidor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/CLionProjects/MPointer/src/Server/MServidor.cpp > CMakeFiles/MPointer.dir/src/Server/MServidor.cpp.i
-
-CMakeFiles/MPointer.dir/src/Server/MServidor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPointer.dir/src/Server/MServidor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/CLionProjects/MPointer/src/Server/MServidor.cpp -o CMakeFiles/MPointer.dir/src/Server/MServidor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Server/MCliente.cpp" -o CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.s
 
 CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.o: CMakeFiles/MPointer.dir/flags.make
 CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.o: ../src/Ordenamientos/InsertionSort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.o -c /home/andrew/CLionProjects/MPointer/src/Ordenamientos/InsertionSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.o -c "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Ordenamientos/InsertionSort.cpp"
 
 CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/CLionProjects/MPointer/src/Ordenamientos/InsertionSort.cpp > CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Ordenamientos/InsertionSort.cpp" > CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.i
 
 CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/CLionProjects/MPointer/src/Ordenamientos/InsertionSort.cpp -o CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Ordenamientos/InsertionSort.cpp" -o CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.s
+
+CMakeFiles/MPointer.dir/src/Server/JSONMakerClient.cpp.o: CMakeFiles/MPointer.dir/flags.make
+CMakeFiles/MPointer.dir/src/Server/JSONMakerClient.cpp.o: ../src/Server/JSONMakerClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MPointer.dir/src/Server/JSONMakerClient.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPointer.dir/src/Server/JSONMakerClient.cpp.o -c "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Server/JSONMakerClient.cpp"
+
+CMakeFiles/MPointer.dir/src/Server/JSONMakerClient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPointer.dir/src/Server/JSONMakerClient.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Server/JSONMakerClient.cpp" > CMakeFiles/MPointer.dir/src/Server/JSONMakerClient.cpp.i
+
+CMakeFiles/MPointer.dir/src/Server/JSONMakerClient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPointer.dir/src/Server/JSONMakerClient.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Server/JSONMakerClient.cpp" -o CMakeFiles/MPointer.dir/src/Server/JSONMakerClient.cpp.s
+
+CMakeFiles/MPointer.dir/src/Dato.cpp.o: CMakeFiles/MPointer.dir/flags.make
+CMakeFiles/MPointer.dir/src/Dato.cpp.o: ../src/Dato.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MPointer.dir/src/Dato.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPointer.dir/src/Dato.cpp.o -c "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Dato.cpp"
+
+CMakeFiles/MPointer.dir/src/Dato.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPointer.dir/src/Dato.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Dato.cpp" > CMakeFiles/MPointer.dir/src/Dato.cpp.i
+
+CMakeFiles/MPointer.dir/src/Dato.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPointer.dir/src/Dato.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Dato.cpp" -o CMakeFiles/MPointer.dir/src/Dato.cpp.s
 
 # Object files for target MPointer
 MPointer_OBJECTS = \
 "CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.o" \
 "CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o" \
 "CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.o" \
-"CMakeFiles/MPointer.dir/src/Server/MServidor.cpp.o" \
-"CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.o"
+"CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.o" \
+"CMakeFiles/MPointer.dir/src/Server/JSONMakerClient.cpp.o" \
+"CMakeFiles/MPointer.dir/src/Dato.cpp.o"
 
 # External object files for target MPointer
 MPointer_EXTERNAL_OBJECTS =
@@ -136,11 +150,12 @@ MPointer_EXTERNAL_OBJECTS =
 MPointer: CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.o
 MPointer: CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o
 MPointer: CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.o
-MPointer: CMakeFiles/MPointer.dir/src/Server/MServidor.cpp.o
 MPointer: CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.o
+MPointer: CMakeFiles/MPointer.dir/src/Server/JSONMakerClient.cpp.o
+MPointer: CMakeFiles/MPointer.dir/src/Dato.cpp.o
 MPointer: CMakeFiles/MPointer.dir/build.make
 MPointer: CMakeFiles/MPointer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable MPointer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable MPointer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MPointer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +168,6 @@ CMakeFiles/MPointer.dir/clean:
 .PHONY : CMakeFiles/MPointer.dir/clean
 
 CMakeFiles/MPointer.dir/depend:
-	cd /home/andrew/CLionProjects/MPointer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andrew/CLionProjects/MPointer /home/andrew/CLionProjects/MPointer /home/andrew/CLionProjects/MPointer/cmake-build-debug /home/andrew/CLionProjects/MPointer/cmake-build-debug /home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug/CMakeFiles/MPointer.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/MPointer.dir/depend
 

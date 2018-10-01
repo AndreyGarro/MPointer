@@ -26,6 +26,7 @@ public :
     void add(T p_data){
         auto *nuevo = new nodoD<T>;
         nuevo->data = p_data;
+        nuevo->next = NULL;
         if (this->primero == nullptr){
             primero = nuevo;
         }
