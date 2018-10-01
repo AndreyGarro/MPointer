@@ -7,6 +7,7 @@ include_directories(.)
 include_directories(src/Listas)
 include_directories(src/MPointerGC)
 include_directories(src/Server)
+include_directories(libraries/include/rapidjson)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
 
 add_executable(MPointer
@@ -22,6 +23,4 @@ add_executable(MPointer
         MPointerQT/MPointerQT/main.cpp
         src/Server/MCliente.cpp
         src/Server/MCliente.h
-        src/Server/MServidor.cpp
-        src/Server/MServidor.h
-        src/MPointer.h src/Ordenamientos/InsertionSort.cpp src/Ordenamientos/InsertionSort.h)
+        src/MPointer.h src/Ordenamientos/InsertionSort.cpp src/Ordenamientos/InsertionSort.h src/Server/JSONMakerClient.cpp src/Server/JSONMakerClient.h src/Dato.cpp src/Dato.h)

@@ -47,7 +47,7 @@ public:
     static bool isActive();
 
     template <typename P>
-    std::string addPointer(P *nuevo);
+    std::string addPointer(P *nuevoPTR);
 
     void addRepitedPointer(string id);
 

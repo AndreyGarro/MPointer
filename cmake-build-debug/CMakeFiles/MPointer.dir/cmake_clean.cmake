@@ -2,8 +2,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.o"
   "CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o"
   "CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.o"
-  "CMakeFiles/MPointer.dir/src/Server/MServidor.cpp.o"
   "CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.o"
+  "CMakeFiles/MPointer.dir/src/Server/JSONMakerClient.cpp.o"
+  "CMakeFiles/MPointer.dir/src/Dato.cpp.o"
   "MPointer.pdb"
   "MPointer"
 )

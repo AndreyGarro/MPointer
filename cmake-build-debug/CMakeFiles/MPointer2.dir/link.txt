@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/MPointer2.dir/MPointerGC/MPointerGC.cpp.o CMakeFiles/MPointer2.dir/MPointerQT/MPointerQT/main.cpp.o CMakeFiles/MPointer2.dir/src/server/MCliente.cpp.o CMakeFiles/MPointer2.dir/src/server/MServidor.cpp.o  -o MPointer2 

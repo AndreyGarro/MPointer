@@ -1,0 +1,1 @@
+/usr/bin/c++   -fpermissive -g   CMakeFiles/untitled4.dir/main.cpp.o CMakeFiles/untitled4.dir/Server/Server.cpp.o CMakeFiles/untitled4.dir/Server/JSONMaker.cpp.o CMakeFiles/untitled4.dir/Server/Memoria.cpp.o CMakeFiles/untitled4.dir/Server/MapNode.cpp.o  -o untitled4 

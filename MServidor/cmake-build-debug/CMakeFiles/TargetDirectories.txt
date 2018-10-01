@@ -1,0 +1,3 @@
+/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/CMakeFiles/MServidor.dir

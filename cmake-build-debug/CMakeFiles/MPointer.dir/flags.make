@@ -6,5 +6,5 @@ CXX_FLAGS =  -pthread -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/andrew/CLionProjects/MPointer/. -I/home/andrew/CLionProjects/MPointer/src/Listas -I/home/andrew/CLionProjects/MPointer/src/MPointerGC -I/home/andrew/CLionProjects/MPointer/src/Server 
+CXX_INCLUDES = -I"/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/." -I"/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Listas" -I"/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/MPointerGC" -I"/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Server" -I"/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/libraries/include/rapidjson" 
 

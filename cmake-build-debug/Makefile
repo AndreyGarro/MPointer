@@ -48,10 +48,10 @@ RM = /snap/clion/39/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andrew/CLionProjects/MPointer
+CMAKE_SOURCE_DIR = "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andrew/CLionProjects/MPointer/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles /home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug/CMakeFiles" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,33 @@ MPointerQT/MPointerQT/main.cpp.s:
 	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.s
 .PHONY : MPointerQT/MPointerQT/main.cpp.s
 
+src/Dato.o: src/Dato.cpp.o
+
+.PHONY : src/Dato.o
+
+# target to build an object file
+src/Dato.cpp.o:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/Dato.cpp.o
+.PHONY : src/Dato.cpp.o
+
+src/Dato.i: src/Dato.cpp.i
+
+.PHONY : src/Dato.i
+
+# target to preprocess a source file
+src/Dato.cpp.i:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/Dato.cpp.i
+.PHONY : src/Dato.cpp.i
+
+src/Dato.s: src/Dato.cpp.s
+
+.PHONY : src/Dato.s
+
+# target to generate assembly for a file
+src/Dato.cpp.s:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/Dato.cpp.s
+.PHONY : src/Dato.cpp.s
+
 src/MPointerGC/MPointerGC.o: src/MPointerGC/MPointerGC.cpp.o
 
 .PHONY : src/MPointerGC/MPointerGC.o
@@ -204,6 +231,33 @@ src/Ordenamientos/InsertionSort.cpp.s:
 	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/Ordenamientos/InsertionSort.cpp.s
 .PHONY : src/Ordenamientos/InsertionSort.cpp.s
 
+src/Server/JSONMakerClient.o: src/Server/JSONMakerClient.cpp.o
+
+.PHONY : src/Server/JSONMakerClient.o
+
+# target to build an object file
+src/Server/JSONMakerClient.cpp.o:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/Server/JSONMakerClient.cpp.o
+.PHONY : src/Server/JSONMakerClient.cpp.o
+
+src/Server/JSONMakerClient.i: src/Server/JSONMakerClient.cpp.i
+
+.PHONY : src/Server/JSONMakerClient.i
+
+# target to preprocess a source file
+src/Server/JSONMakerClient.cpp.i:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/Server/JSONMakerClient.cpp.i
+.PHONY : src/Server/JSONMakerClient.cpp.i
+
+src/Server/JSONMakerClient.s: src/Server/JSONMakerClient.cpp.s
+
+.PHONY : src/Server/JSONMakerClient.s
+
+# target to generate assembly for a file
+src/Server/JSONMakerClient.cpp.s:
+	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/Server/JSONMakerClient.cpp.s
+.PHONY : src/Server/JSONMakerClient.cpp.s
+
 src/Server/MCliente.o: src/Server/MCliente.cpp.o
 
 .PHONY : src/Server/MCliente.o
@@ -231,33 +285,6 @@ src/Server/MCliente.cpp.s:
 	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.s
 .PHONY : src/Server/MCliente.cpp.s
 
-src/Server/MServidor.o: src/Server/MServidor.cpp.o
-
-.PHONY : src/Server/MServidor.o
-
-# target to build an object file
-src/Server/MServidor.cpp.o:
-	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/Server/MServidor.cpp.o
-.PHONY : src/Server/MServidor.cpp.o
-
-src/Server/MServidor.i: src/Server/MServidor.cpp.i
-
-.PHONY : src/Server/MServidor.i
-
-# target to preprocess a source file
-src/Server/MServidor.cpp.i:
-	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/Server/MServidor.cpp.i
-.PHONY : src/Server/MServidor.cpp.i
-
-src/Server/MServidor.s: src/Server/MServidor.cpp.s
-
-.PHONY : src/Server/MServidor.s
-
-# target to generate assembly for a file
-src/Server/MServidor.cpp.s:
-	$(MAKE) -f CMakeFiles/MPointer.dir/build.make CMakeFiles/MPointer.dir/src/Server/MServidor.cpp.s
-.PHONY : src/Server/MServidor.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -270,18 +297,21 @@ help:
 	@echo "... MPointerQT/MPointerQT/main.o"
 	@echo "... MPointerQT/MPointerQT/main.i"
 	@echo "... MPointerQT/MPointerQT/main.s"
+	@echo "... src/Dato.o"
+	@echo "... src/Dato.i"
+	@echo "... src/Dato.s"
 	@echo "... src/MPointerGC/MPointerGC.o"
 	@echo "... src/MPointerGC/MPointerGC.i"
 	@echo "... src/MPointerGC/MPointerGC.s"
 	@echo "... src/Ordenamientos/InsertionSort.o"
 	@echo "... src/Ordenamientos/InsertionSort.i"
 	@echo "... src/Ordenamientos/InsertionSort.s"
+	@echo "... src/Server/JSONMakerClient.o"
+	@echo "... src/Server/JSONMakerClient.i"
+	@echo "... src/Server/JSONMakerClient.s"
 	@echo "... src/Server/MCliente.o"
 	@echo "... src/Server/MCliente.i"
 	@echo "... src/Server/MCliente.s"
-	@echo "... src/Server/MServidor.o"
-	@echo "... src/Server/MServidor.i"
-	@echo "... src/Server/MServidor.s"
 .PHONY : help
 
 
