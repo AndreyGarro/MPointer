@@ -1,7 +1,3 @@
-//
-// Created by ortegajosant on 25/09/18.
-//
-
 #include <include/rapidjson/stringbuffer.h>
 #include <include/rapidjson/prettywriter.h>
 #include "JSONMaker.h"

@@ -1,7 +1,3 @@
-//
-// Created by ortegajosant on 27/09/18.
-//
-
 #include <cstdlib>
 #include "Memoria.h"
 

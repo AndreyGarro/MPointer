@@ -1,7 +1,3 @@
-//
-// Created by ortegajosant on 24/09/18.
-//
-
 #include "MCliente.h"
 
 #include <stdlib.h>
@@ -11,7 +7,7 @@
 #include <sys/socket.h>
 #include <unistd.h>
 
-MCliente *MCliente::instance = 0;
+MCliente *MCliente::instance = nullptr;
 bool MCliente::activo = 0;
 
 rapidjson::Document MCliente::conectar(std::string json) {
@@ -24,7 +20,7 @@ rapidjson::Document MCliente::conectar(std::string json) {
 
     if (connect(cliente, (struct sockaddr *) &direccionSC, sizeof(direccionSC)) != 0) {
         perror("No se pudo conectar");
-        return 0;
+        return nullptr;
     }
 
     char mensaje[1000];
@@ -40,7 +36,7 @@ rapidjson::Document MCliente::conectar(std::string json) {
 
     if (bytes <= 0) {
         perror("Se apagó el server");
-        return 0;
+        return nullptr;
     }
 
     close(cliente);

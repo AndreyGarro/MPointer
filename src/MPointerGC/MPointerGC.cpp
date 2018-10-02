@@ -1,14 +1,7 @@
-//
-// Created by andrew on 19/09/18.
-//
-
-//Includes
-#include <iostream>
 #include "MPointerGC.h"
 #include "../MPointer.h"
 #include <chrono>
-#include <thread>
-//Fin de Includes
+
 
 /**
  * Inicialización de parámetros
@@ -96,7 +89,7 @@ void MPointerGC::revisaLista() {
 }
 
 void MPointerGC::threadFunc(MPointerGC *param) {
-    ((MPointerGC*)param)->revisaLista();
+    param->revisaLista();
 }
 
 void MPointerGC::stopThread() {

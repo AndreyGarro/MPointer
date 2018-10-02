@@ -1,7 +1,3 @@
-//
-// Created by ortegajosant on 28/09/18.
-//
-
 #ifndef UNTITLED4_MAPNODE_H
 #define UNTITLED4_MAPNODE_H
 

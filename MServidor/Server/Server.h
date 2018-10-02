@@ -1,7 +1,3 @@
-//
-// Created by ortegajosant on 22/09/18.
-//
-
 #ifndef UNTITLED4_SERVER_H
 #define UNTITLED4_SERVER_H
 

@@ -1,7 +1,3 @@
-//
-// Created by ortegajosant on 24/09/18.
-//
-
 #ifndef MPOINTER_MCLIENTE_H
 #define MPOINTER_MCLIENTE_H
 
@@ -11,7 +7,7 @@
 #include <arpa/inet.h>
 #include <sys/socket.h>
 #include <iostream>
-#include <libraries/include/rapidjson/document.h>
+#include <../../libraries/include/rapidjson/document.h>
 #include "JSONMakerClient.h"
 
 class MCliente {

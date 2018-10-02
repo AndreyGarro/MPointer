@@ -1,7 +1,3 @@
-//
-// Created by ortegajosant on 28/09/18.
-//
-
 #include "MapNode.h"
 
 const std::string &MapNode::getID() const {
