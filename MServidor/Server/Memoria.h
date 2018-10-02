@@ -1,7 +1,3 @@
-//
-// Created by ortegajosant on 27/09/18.
-//
-
 #ifndef UNTITLED4_MEMORIA_H
 #define UNTITLED4_MEMORIA_H
 

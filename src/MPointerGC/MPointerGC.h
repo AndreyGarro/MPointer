@@ -1,8 +1,3 @@
-//
-// Created by andrew on 19/09/18.
-//
-
-
 #ifndef MPOINTER_MPOINTERGC_H
 #define MPOINTER_MPOINTERGC_H
 
@@ -10,28 +5,25 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <thread>
-#include <pthread.h>
 
-#include "src/Listas/ListaGC.h"
+#include "../Listas/ListaGC.h"
 
 using namespace std;
 
 class MPointerGC {
 private:
-    //Atributos
     static bool active;
     static MPointerGC * instance;
     ListaGC<void> listaMPointer;
     int ID = -1;
     thread * thread_m;
-    //
 
     string generarID();
 
     MPointerGC() {
-        thread_m = new thread(threadFunc, this);
+        thread_m = new thread(MPointerGC::threadFunc, this);
         cout << "Se creo una instancia nueva!\n";
-    };
+    }
 
     MPointerGC(const MPointerGC &);
 

@@ -1,16 +1,11 @@
-//
-// Created by christian on 16/09/18.
-//
-
-
 #ifndef MPOINTER_MPOINTER_H
 #define MPOINTER_MPOINTER_H
 
 #include <stdlib.h>
 #include <iostream>
-#include <src/Server/MCliente.h>
-#include "src/MPointerGC/MPointerGC.h"
-#include "src/Dato.h"
+#include "Server/MCliente.h"
+#include "MPointerGC/MPointerGC.h"
+#include "Dato.h"
 
 using namespace std;
 

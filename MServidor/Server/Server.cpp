@@ -1,7 +1,3 @@
-//
-// Created by ortegajosant on 22/09/18.
-//
-
 #include <unistd.h>
 #include "Server.h"
 

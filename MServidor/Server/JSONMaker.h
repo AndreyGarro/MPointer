@@ -1,7 +1,3 @@
-//
-// Created by ortegajosant on 25/09/18.
-//
-
 #ifndef UNTITLED4_JSONMAKER_H
 #define UNTITLED4_JSONMAKER_H
 

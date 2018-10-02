@@ -1,6 +1,6 @@
 #ifndef LISTADOBLE_H
 #define LISTADOBLE_H
-#include "src/MPointer.h"
+#include "../MPointer.h"
 #include <iostream>
 
 using namespace std;
@@ -8,58 +8,68 @@ using namespace std;
 template<class T>
 struct nodoD{
     T data;
-    nodoD *next;
-    nodoD *prev;
+    nodoD *next = nullptr;
+    nodoD *prev = nullptr;
+
+    nodoD(T data) {
+        this->data = data;
+    }
 };
 
 template <class T>
 class ListaDoble{
 
-    int lenght;
-    nodoD<MPointer<int>> *primero;
+    int length;
+    nodoD<MPointer<int>> *head;
 
 public :
     ListaDoble(){
-        primero = nullptr;
+        head = nullptr;
     }
 
     void add(T p_data){
-        auto *nuevo = new nodoD<T>;
-        nuevo->data = p_data;
-        nuevo->next = NULL;
-        if (this->primero == nullptr){
-            primero = nuevo;
+        nodoD<T> *nuevo = new nodoD<T>(p_data);
+        if (this->head == nullptr){
+            head = nuevo;
         }
         else{
             nodoD<T> *temp;
-            temp = primero;
+            temp = head;
             while(temp->next){
                 temp = temp->next;
             }
             temp->next = nuevo;
             nuevo->prev = temp;
         }
-        this->lenght ++;
+        this->length ++;
     }
 
     T getMPointer(int pos){
-        auto *temp = primero;
+        nodoD<T> *temp = head;
         for(int i = 0; i < pos; i++){
             temp = temp->next;
         }
         return temp->data;
     }
 
-    void printList(){
-        auto *temp = primero;
-        for(int i = 0; i < this->lenght; i++){
-            cout<<temp->data.operator&()<<endl;
+    void setMPointer(int pos, T newData) {
+        nodoD<T> *temp = head;
+        for(int i = 0; i < pos; i++){
             temp = temp->next;
+        }
+        temp->data = newData;
+    }
+
+    void printList(){
+        auto *tmp = head;
+        for(int i = 0; i < this->length; i++){
+            cout<<tmp->data.operator&()<<endl;
+            tmp = tmp->next;
         }
     }
 
-    int getLenght(){
-        return this->lenght;
+    int getLength(){
+        return this->length;
     }
 };
 

@@ -1,7 +1,3 @@
-//
-// Created by andrew on 21/09/18.
-//
-
 #ifndef MPOINTER_LISTASIMPLE_H
 #define MPOINTER_LISTASIMPLE_H
 
@@ -55,7 +51,7 @@ public:
             i++;
         }
         return *aux;
-    };
+    }
 
     /**
      * Inserta un nuevo nodo a la lista
@@ -80,7 +76,7 @@ public:
         }
         nuevo->cantRef ++;
         this->lenght ++;
-    };
+    }
 
     /**
      * Obtiene el dato en la posición dada
@@ -95,7 +91,7 @@ public:
             i++;
         }
         return aux->dato;
-    };
+    }
 
     /**
      * Obtiene la cantidad de referencias que tiene un dato
@@ -103,12 +99,14 @@ public:
      * @return cantidad de referencias
      */
     int getCantRefPorID(string id){
-        nodo<T> *aux = primero;
-        for(int i = 0; i < this->lenght; i++){
+        //nodo<T> *aux = primero;
+        int i;
+        for(i = 0; i < this->lenght; i++){
             if(id == this->getNodo(i).ID){
-                return this->getNodo(i).cantRef;
+                break;
             }
         }
+        return this->getNodo(i).cantRef;
     }
 
     /**

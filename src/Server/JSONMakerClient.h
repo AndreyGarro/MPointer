@@ -1,11 +1,7 @@
-//
-// Created by ortegajosant on 30/09/18.
-//
-
 #ifndef MPOINTER_JSONMAKERCLIENT_H
 #define MPOINTER_JSONMAKERCLIENT_H
 
-#include <document.h>
+#include <../../libraries/include/rapidjson/document.h>
 
 class JSONMakerClient {
 public:

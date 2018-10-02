@@ -1,11 +1,8 @@
-//
-// Created by ortegajosant on 30/09/18.
-//
-
 #ifndef MPOINTER_DATO_H
 #define MPOINTER_DATO_H
 
-#include <src/Server/MCliente.h>
+#include "Server/JSONMakerClient.h"
+#include "Server/MCliente.h"
 template<class T>
 class Dato {
 

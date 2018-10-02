@@ -51,9 +51,13 @@ OBJECTS_DIR   = ./
 ####### Files
 
 SOURCES       = ../MPointerQT/main.cpp \
-		../../MPointerGC/MPointerGC.cpp 
+		../../src/MPointerGC/MPointerGC.cpp \
+		../../src/Server/MCliente.cpp \
+		../../src/Ordenamientos/Sorts.cpp 
 OBJECTS       = main.o \
-		MPointerGC.o
+		MPointerGC.o \
+		MCliente.o \
+		Sorts.o
 DIST          = /home/stephanie/Qt/5.11.1/gcc_64/mkspecs/features/spec_pre.prf \
 		/home/stephanie/Qt/5.11.1/gcc_64/mkspecs/common/unix.conf \
 		/home/stephanie/Qt/5.11.1/gcc_64/mkspecs/common/linux.conf \
@@ -214,11 +218,15 @@ DIST          = /home/stephanie/Qt/5.11.1/gcc_64/mkspecs/features/spec_pre.prf \
 		/home/stephanie/Qt/5.11.1/gcc_64/mkspecs/features/exceptions.prf \
 		/home/stephanie/Qt/5.11.1/gcc_64/mkspecs/features/yacc.prf \
 		/home/stephanie/Qt/5.11.1/gcc_64/mkspecs/features/lex.prf \
-		../MPointerQT/MPointerQT.pro ../../MPointer.h \
-		../../MPointerGC/MPointerGC.h \
-		../../Listas/ListaGC.h \
-		../../Listas/listadoble.h ../MPointerQT/main.cpp \
-		../../MPointerGC/MPointerGC.cpp
+		../MPointerQT/MPointerQT.pro ../../src/Listas/ListaDoble.h \
+		../../src/Listas/ListaGC.h \
+		../../src/MPointerGC/MPointerGC.h \
+		../../src/Server/MCliente.h \
+		../../src/MPointer.h \
+		../../src/Ordenamientos/Sorts.h ../MPointerQT/main.cpp \
+		../../src/MPointerGC/MPointerGC.cpp \
+		../../src/Server/MCliente.cpp \
+		../../src/Ordenamientos/Sorts.cpp
 QMAKE_TARGET  = MPointerQT
 DESTDIR       = 
 TARGET        = MPointerQT
@@ -596,16 +604,117 @@ compiler_clean:
 
 ####### Compile
 
-main.o: ../MPointerQT/main.cpp ../../MPointer.h \
-		../../MPointerGC/MPointerGC.h \
-		../../Listas/ListaGC.h \
-		../../Listas/listadoble.h
+main.o: ../MPointerQT/main.cpp ../../src/Ordenamientos/Sorts.h \
+		../../src/Listas/ListaDoble.h \
+		../../src/MPointer.h \
+		../../src/Server/MCliente.h \
+		../../libraries/include/rapidjson/document.h \
+		../../libraries/include/rapidjson/reader.h \
+		../../libraries/include/rapidjson/allocators.h \
+		../../libraries/include/rapidjson/rapidjson.h \
+		../../libraries/include/rapidjson/msinttypes/stdint.h \
+		../../libraries/include/rapidjson/msinttypes/inttypes.h \
+		../../libraries/include/rapidjson/stream.h \
+		../../libraries/include/rapidjson/encodings.h \
+		../../libraries/include/rapidjson/encodedstream.h \
+		../../libraries/include/rapidjson/memorystream.h \
+		../../libraries/include/rapidjson/internal/meta.h \
+		../../libraries/include/rapidjson/internal/stack.h \
+		../../libraries/include/rapidjson/internal/swap.h \
+		../../libraries/include/rapidjson/internal/strtod.h \
+		../../libraries/include/rapidjson/internal/ieee754.h \
+		../../libraries/include/rapidjson/internal/biginteger.h \
+		../../libraries/include/rapidjson/internal/diyfp.h \
+		../../libraries/include/rapidjson/internal/pow10.h \
+		../../libraries/include/rapidjson/error/error.h \
+		../../libraries/include/rapidjson/internal/strfunc.h \
+		../../src/Server/JSONMakerClient.h \
+		../../src/MPointerGC/MPointerGC.h \
+		../../src/Listas/ListaGC.h \
+		../../src/Dato.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../MPointerQT/main.cpp
 
-MPointerGC.o: ../../MPointerGC/MPointerGC.cpp ../../MPointerGC/MPointerGC.h \
-		../../MPointer.h \
-		../../Listas/ListaGC.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o MPointerGC.o ../../MPointerGC/MPointerGC.cpp
+MPointerGC.o: ../../src/MPointerGC/MPointerGC.cpp ../../src/MPointerGC/MPointerGC.h \
+		../../src/Listas/ListaGC.h \
+		../../src/MPointer.h \
+		../../src/Server/MCliente.h \
+		../../libraries/include/rapidjson/document.h \
+		../../libraries/include/rapidjson/reader.h \
+		../../libraries/include/rapidjson/allocators.h \
+		../../libraries/include/rapidjson/rapidjson.h \
+		../../libraries/include/rapidjson/msinttypes/stdint.h \
+		../../libraries/include/rapidjson/msinttypes/inttypes.h \
+		../../libraries/include/rapidjson/stream.h \
+		../../libraries/include/rapidjson/encodings.h \
+		../../libraries/include/rapidjson/encodedstream.h \
+		../../libraries/include/rapidjson/memorystream.h \
+		../../libraries/include/rapidjson/internal/meta.h \
+		../../libraries/include/rapidjson/internal/stack.h \
+		../../libraries/include/rapidjson/internal/swap.h \
+		../../libraries/include/rapidjson/internal/strtod.h \
+		../../libraries/include/rapidjson/internal/ieee754.h \
+		../../libraries/include/rapidjson/internal/biginteger.h \
+		../../libraries/include/rapidjson/internal/diyfp.h \
+		../../libraries/include/rapidjson/internal/pow10.h \
+		../../libraries/include/rapidjson/error/error.h \
+		../../libraries/include/rapidjson/internal/strfunc.h \
+		../../src/Server/JSONMakerClient.h \
+		../../src/Dato.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o MPointerGC.o ../../src/MPointerGC/MPointerGC.cpp
+
+MCliente.o: ../../src/Server/MCliente.cpp ../../src/Server/MCliente.h \
+		../../libraries/include/rapidjson/document.h \
+		../../libraries/include/rapidjson/reader.h \
+		../../libraries/include/rapidjson/allocators.h \
+		../../libraries/include/rapidjson/rapidjson.h \
+		../../libraries/include/rapidjson/msinttypes/stdint.h \
+		../../libraries/include/rapidjson/msinttypes/inttypes.h \
+		../../libraries/include/rapidjson/stream.h \
+		../../libraries/include/rapidjson/encodings.h \
+		../../libraries/include/rapidjson/encodedstream.h \
+		../../libraries/include/rapidjson/memorystream.h \
+		../../libraries/include/rapidjson/internal/meta.h \
+		../../libraries/include/rapidjson/internal/stack.h \
+		../../libraries/include/rapidjson/internal/swap.h \
+		../../libraries/include/rapidjson/internal/strtod.h \
+		../../libraries/include/rapidjson/internal/ieee754.h \
+		../../libraries/include/rapidjson/internal/biginteger.h \
+		../../libraries/include/rapidjson/internal/diyfp.h \
+		../../libraries/include/rapidjson/internal/pow10.h \
+		../../libraries/include/rapidjson/error/error.h \
+		../../libraries/include/rapidjson/internal/strfunc.h \
+		../../src/Server/JSONMakerClient.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o MCliente.o ../../src/Server/MCliente.cpp
+
+Sorts.o: ../../src/Ordenamientos/Sorts.cpp ../../src/Ordenamientos/Sorts.h \
+		../../src/Listas/ListaDoble.h \
+		../../src/MPointer.h \
+		../../src/Server/MCliente.h \
+		../../libraries/include/rapidjson/document.h \
+		../../libraries/include/rapidjson/reader.h \
+		../../libraries/include/rapidjson/allocators.h \
+		../../libraries/include/rapidjson/rapidjson.h \
+		../../libraries/include/rapidjson/msinttypes/stdint.h \
+		../../libraries/include/rapidjson/msinttypes/inttypes.h \
+		../../libraries/include/rapidjson/stream.h \
+		../../libraries/include/rapidjson/encodings.h \
+		../../libraries/include/rapidjson/encodedstream.h \
+		../../libraries/include/rapidjson/memorystream.h \
+		../../libraries/include/rapidjson/internal/meta.h \
+		../../libraries/include/rapidjson/internal/stack.h \
+		../../libraries/include/rapidjson/internal/swap.h \
+		../../libraries/include/rapidjson/internal/strtod.h \
+		../../libraries/include/rapidjson/internal/ieee754.h \
+		../../libraries/include/rapidjson/internal/biginteger.h \
+		../../libraries/include/rapidjson/internal/diyfp.h \
+		../../libraries/include/rapidjson/internal/pow10.h \
+		../../libraries/include/rapidjson/error/error.h \
+		../../libraries/include/rapidjson/internal/strfunc.h \
+		../../src/Server/JSONMakerClient.h \
+		../../src/MPointerGC/MPointerGC.h \
+		../../src/Listas/ListaGC.h \
+		../../src/Dato.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Sorts.o ../../src/Ordenamientos/Sorts.cpp
 
 ####### Install
 
