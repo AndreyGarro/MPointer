@@ -6,7 +6,7 @@ std::string JSONMaker::devolverID(std::string id, std::string accion) {
 
     rapidjson::Document document;
 
-    document.SetObject();
+    document.SetObject( );
 
     rapidjson::Document::AllocatorType &alloc = document.GetAllocator();
 
