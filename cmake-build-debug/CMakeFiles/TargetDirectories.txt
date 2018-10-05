@@ -1,3 +1,0 @@
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug/CMakeFiles/MPointer.dir
