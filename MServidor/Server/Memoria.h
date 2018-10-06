@@ -7,6 +7,9 @@
 #include "ListaDoble.h"
 #include "MapNode.h"
 
+/**
+ * Clase Memoria que se encarga de la administración de memoria en el servidor
+ */
 class Memoria {
 private:
 

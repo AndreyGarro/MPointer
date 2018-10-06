@@ -6,6 +6,11 @@
 #include <prettywriter.h>
 #include "JSONMakerClient.h"
 
+/**
+ * Crea un JSON que solicita la memoria al servidor
+ * @param tipo
+ * @return std::string JSON
+ */
 std::string JSONMakerClient::solicitarMemoria(std::string tipo) {
 
     rapidjson::Document doc;
@@ -25,6 +30,11 @@ std::string JSONMakerClient::solicitarMemoria(std::string tipo) {
 
 }
 
+/**
+ * Crea un JSON que solicita al servidor que retorne un valor para un dato
+ * @param id
+ * @return std::string JSON
+ */
 std::string JSONMakerClient::solicitarValor(std::string id) {
 
     rapidjson::Document doc;
@@ -43,6 +53,12 @@ std::string JSONMakerClient::solicitarValor(std::string id) {
     return stringBuffer.GetString();
 }
 
+/**
+ * Solicita la asignación de una valor para un int
+ * @param id ID
+ * @param dato dato
+ * @return std::string JSON
+ */
 std::string JSONMakerClient::solicitarAsignacion(std::string id, int dato) {
 
     rapidjson::Document doc;
@@ -62,6 +78,12 @@ std::string JSONMakerClient::solicitarAsignacion(std::string id, int dato) {
     return stringBuffer.GetString();
 }
 
+/**
+ * Solicita la asignación de una valor para un string
+ * @param id ID
+ * @param dato dato
+ * @return std::string JSON
+ */
 std::string JSONMakerClient::solicitarAsignacion(std::string id, std::string dato) {
 
     rapidjson::Document doc;
@@ -83,6 +105,12 @@ std::string JSONMakerClient::solicitarAsignacion(std::string id, std::string dat
     return stringBuffer.GetString();
 }
 
+/**
+ * Solicita la asignación de una valor para un char
+ * @param id ID
+ * @param dato dato
+ * @return std::string JSON
+ */
 std::string JSONMakerClient::solicitarAsignacion(std::string id, char dato) {
 
     rapidjson::Document doc;
@@ -90,10 +118,9 @@ std::string JSONMakerClient::solicitarAsignacion(std::string id, char dato) {
 
     rapidjson::Document::AllocatorType &allocator = doc.GetAllocator();
 
-    std::string temp = std::to_string(dato);
     doc.AddMember("solicitud", "asignar", allocator);
     doc.AddMember("id", rapidjson::Value().SetString(id.c_str(), allocator), allocator);
-    doc.AddMember("Dato", rapidjson::Value().SetString(temp.c_str(), allocator), allocator);
+    doc.AddMember("Dato", dato, allocator);
 
     rapidjson::StringBuffer stringBuffer;
     rapidjson::PrettyWriter<rapidjson::StringBuffer> writer(stringBuffer);
@@ -103,6 +130,12 @@ std::string JSONMakerClient::solicitarAsignacion(std::string id, char dato) {
     return stringBuffer.GetString();
 }
 
+/**
+ * Solicita la asignación de una valor para un double
+ * @param id ID
+ * @param dato dato
+ * @return std::string JSON
+ */
 std::string JSONMakerClient::solicitarAsignacion(std::string id, double dato) {
 
     rapidjson::Document doc;
@@ -122,6 +155,12 @@ std::string JSONMakerClient::solicitarAsignacion(std::string id, double dato) {
     return stringBuffer.GetString();
 }
 
+/**
+ * Solicita la asignación de una valor para un long
+ * @param id ID
+ * @param dato dato
+ * @return std::string JSON
+ */
 std::string JSONMakerClient::solicitarAsignacion(std::string id, long dato) {
 
     rapidjson::Document doc;
@@ -141,6 +180,12 @@ std::string JSONMakerClient::solicitarAsignacion(std::string id, long dato) {
     return stringBuffer.GetString();
 }
 
+/**
+ * Solicita la asignación de una valor para un bool
+ * @param id ID
+ * @param dato dato
+ * @return std::string JSON
+ */
 std::string JSONMakerClient::solicitarAsignacion(std::string id, bool dato) {
 
     rapidjson::Document doc;
@@ -160,6 +205,12 @@ std::string JSONMakerClient::solicitarAsignacion(std::string id, bool dato) {
     return stringBuffer.GetString();
 }
 
+/**
+ * Solicita la asignación de una valor para un float
+ * @param id ID
+ * @param dato dato
+ * @return std::string JSON
+ */
 std::string JSONMakerClient::solicitarAsignacion(std::string id, float dato) {
 
     rapidjson::Document doc;
@@ -179,6 +230,11 @@ std::string JSONMakerClient::solicitarAsignacion(std::string id, float dato) {
     return stringBuffer.GetString();
 }
 
+/**
+ * Parsea un string a JSON
+ * @param json
+ * @return Objeto JSON Document
+ */
 rapidjson::Document JSONMakerClient::parsearJSON(char *json) {
     rapidjson::Document document;
     document.Parse(json);

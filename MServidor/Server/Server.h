@@ -10,7 +10,9 @@
 #include <string.h>
 #include "Memoria.h"
 
-
+/**
+ * Server inicia el servidor al que se conecta MPointer
+ */
 class Server {
 
 public:

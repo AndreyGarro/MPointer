@@ -1,0 +1,1 @@
+/usr/bin/c++   -pthread -g   CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.o CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.o CMakeFiles/MPointer.dir/src/Server/JSONMakerClient.cpp.o CMakeFiles/MPointer.dir/src/Ordenamientos/Sorts.cpp.o  -o MPointer 

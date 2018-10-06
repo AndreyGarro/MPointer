@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ortegajosant/CLionProjects/MServidor/Server/JSONMaker.cpp" "/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/CMakeFiles/MServidor.dir/Server/JSONMaker.cpp.o"
-  "/home/ortegajosant/CLionProjects/MServidor/Server/MapNode.cpp" "/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/CMakeFiles/MServidor.dir/Server/MapNode.cpp.o"
-  "/home/ortegajosant/CLionProjects/MServidor/Server/Memoria.cpp" "/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/CMakeFiles/MServidor.dir/Server/Memoria.cpp.o"
-  "/home/ortegajosant/CLionProjects/MServidor/Server/Server.cpp" "/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/CMakeFiles/MServidor.dir/Server/Server.cpp.o"
-  "/home/ortegajosant/CLionProjects/MServidor/main.cpp" "/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/CMakeFiles/MServidor.dir/main.cpp.o"
+  "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/JSONMaker.cpp" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/cmake-build-debug/CMakeFiles/MServidor.dir/Server/JSONMaker.cpp.o"
+  "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/MapNode.cpp" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/cmake-build-debug/CMakeFiles/MServidor.dir/Server/MapNode.cpp.o"
+  "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/Memoria.cpp" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/cmake-build-debug/CMakeFiles/MServidor.dir/Server/Memoria.cpp.o"
+  "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/Server.cpp" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/cmake-build-debug/CMakeFiles/MServidor.dir/Server/Server.cpp.o"
+  "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/main.cpp" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/cmake-build-debug/CMakeFiles/MServidor.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

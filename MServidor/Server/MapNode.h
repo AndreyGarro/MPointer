@@ -3,6 +3,9 @@
 
 #include <iostream>
 
+/**
+ * MapNode se encarga de administrar la información en la Memoria
+ */
 class MapNode {
 private:
     std::string ID;

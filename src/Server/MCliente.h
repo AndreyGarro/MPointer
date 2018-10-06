@@ -10,6 +10,9 @@
 #include <../../libraries/include/rapidjson/document.h>
 #include "JSONMakerClient.h"
 
+/**
+ * Realiza todas las conexiones con el servidor
+ */
 class MCliente {
 public:
     static MCliente * getInstance(std::string, int);
@@ -17,8 +20,6 @@ public:
     static bool esActivo();
 
     rapidjson::Document conectar(std::string);
-
-    std::string createMPointer();
 
     std::string &getIP();
 

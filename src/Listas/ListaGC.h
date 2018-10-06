@@ -99,14 +99,14 @@ public:
      * @return cantidad de referencias
      */
     int getCantRefPorID(string id){
-        //nodo<T> *aux = primero;
+        nodo<T> *aux = primero;
         int i;
         for(i = 0; i < this->lenght; i++){
             if(id == this->getNodo(i).ID){
-                break;
+                return this->getNodo(i).cantRef;
             }
+            aux = aux->siguiente;
         }
-        return this->getNodo(i).cantRef;
     }
 
     /**
@@ -140,11 +140,16 @@ public:
             primero = aux->siguiente;
             free(aux);
         } else {
-            for (int i = 0; i < pos-1; i++) {
+            nodo<T> * prev = aux;
+            for (int i = 0; i < lenght; i++) {
+                if (i == pos) {
+                    prev->siguiente = aux->siguiente;
+                    free(aux->siguiente);
+                    break;
+                }
+                prev = aux;
                 aux = aux->siguiente;
             }
-            free(aux->siguiente);
-            aux->siguiente = aux->siguiente->siguiente;
         }
         this->lenght--;
     }
@@ -185,7 +190,9 @@ public:
         nodo<T> *aux = primero;
         for(int i = 0; i < this->lenght; i++){
             if(aux->ID == id){
+
                 aux->cantRef ++;
+                cout<<"Aumenté la referencia a :"<<aux->cantRef<<endl;
                 break;
             }
             aux = aux->siguiente;
