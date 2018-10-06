@@ -6,31 +6,36 @@ using namespace std;
 
 int main() {
 
-//    auto GC = MPointerGC::getInstance();
+    auto GC = MPointerGC::getInstance();
 
-//    cout<<&ptr1<<endl;
-//    cout<<&ptr2<<endl;
-//    cout<<&ptr3<<endl;
-//    cout<<&ptr4<<endl;
-//    cout<<&ptr5<<endl;
-//    cout<<&ptr6<<endl;
-//
-//    GC->imprimirLista();
-//
-//    cout << endl;
-//
-//    GC->imprimirLista();
-//
-//    cout << endl;
-//
+    MPointer<int> ptr1;
+    MPointer<string> ptr2;
+    MPointer<char> ptr3;
+    MPointer<int> ptr4;
+    MPointer<int> ptr5;
+    MPointer<int> ptr6;
+    MPointer<int> ptr7;
+
+    *ptr1 = 11;
+    *ptr2 = "9";
+    *ptr3 = 'h';
+    *ptr4 = 6;
+    *ptr5 = 1;
+    *ptr6 = 5;
+    ptr7 = ptr1;
+
+    GC->imprimirLista();
+
 //    ptr1.~MPointer();
-//
-//    GC->imprimirLista();
 //    cout<<endl;
-//
 //    GC->imprimirLista();
-//    GC->stopThread();
 
+//    ptr7.~MPointer();
+//    cout<<endl;
+//    GC->imprimirLista();
+
+
+//    GC->stopThread();
 
 //-------------------------------------------------Server-------------------------------------------------//
 

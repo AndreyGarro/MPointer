@@ -182,53 +182,45 @@ rapidjson.h
 encodings.h
 ../libraries/include/rapidjson/encodings.h
 
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MPointerQT/MPointerQT/main.cpp
+/home/andrew/CLionProjects/MPointer/MPointerQT/MPointerQT/main.cpp
 iostream
 -
 ../../src/Ordenamientos/Sorts.h
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Ordenamientos/Sorts.h
+/home/andrew/CLionProjects/MPointer/src/Ordenamientos/Sorts.h
 ../../src/MPointer.h
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointer.h
+/home/andrew/CLionProjects/MPointer/src/MPointer.h
 
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Dato.h
+/home/andrew/CLionProjects/MPointer/src/Dato.h
 Server/JSONMakerClient.h
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/JSONMakerClient.h
+/home/andrew/CLionProjects/MPointer/src/Server/JSONMakerClient.h
 Server/MCliente.h
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/MCliente.h
+/home/andrew/CLionProjects/MPointer/src/Server/MCliente.h
 
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Listas/ListaDoble.h
+/home/andrew/CLionProjects/MPointer/src/Listas/ListaDoble.h
 ../MPointer.h
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointer.h
+/home/andrew/CLionProjects/MPointer/src/MPointer.h
 iostream
 -
 
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Listas/ListaGC.h
+/home/andrew/CLionProjects/MPointer/src/Listas/ListaGC.h
 iostream
 -
 string
 -
 
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointer.h
+/home/andrew/CLionProjects/MPointer/src/MPointer.h
 stdlib.h
 -
 iostream
 -
 Server/MCliente.h
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/MCliente.h
+/home/andrew/CLionProjects/MPointer/src/Server/MCliente.h
 MPointerGC/MPointerGC.h
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointerGC/MPointerGC.h
+/home/andrew/CLionProjects/MPointer/src/MPointerGC/MPointerGC.h
 Dato.h
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Dato.h
+/home/andrew/CLionProjects/MPointer/src/Dato.h
 
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointerGC/MPointerGC.cpp
-MPointerGC.h
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointerGC/MPointerGC.h
-../MPointer.h
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointer.h
-chrono
--
-
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointerGC/MPointerGC.h
+/home/andrew/CLionProjects/MPointer/src/MPointerGC/MPointerGC.h
 iostream
 -
 stdio.h
@@ -240,21 +232,17 @@ thread
 pthread.h
 -
 ../Listas/ListaGC.h
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Listas/ListaGC.h
+/home/andrew/CLionProjects/MPointer/src/Listas/ListaGC.h
 
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Ordenamientos/Sorts.cpp
-Sorts.h
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Ordenamientos/Sorts.h
-
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Ordenamientos/Sorts.h
+/home/andrew/CLionProjects/MPointer/src/Ordenamientos/Sorts.h
 ../Listas/ListaDoble.h
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Listas/ListaDoble.h
+/home/andrew/CLionProjects/MPointer/src/Listas/ListaDoble.h
 
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/JSONMakerClient.h
+/home/andrew/CLionProjects/MPointer/src/Server/JSONMakerClient.h
 ../../libraries/include/rapidjson/document.h
 -
 
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/MCliente.h
+/home/andrew/CLionProjects/MPointer/src/Server/MCliente.h
 stdlib.h
 -
 stdio.h
@@ -270,5 +258,5 @@ iostream
 ../../libraries/include/rapidjson/document.h
 -
 JSONMakerClient.h
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/JSONMakerClient.h
+/home/andrew/CLionProjects/MPointer/src/Server/JSONMakerClient.h
 

@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MPointerQT/MPointerQT/main.cpp" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/cmake-build-debug/CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o"
-  "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointerGC/MPointerGC.cpp" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/cmake-build-debug/CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.o"
-  "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Ordenamientos/Sorts.cpp" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/cmake-build-debug/CMakeFiles/MPointer.dir/src/Ordenamientos/Sorts.cpp.o"
-  "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/JSONMakerClient.cpp" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/cmake-build-debug/CMakeFiles/MPointer.dir/src/Server/JSONMakerClient.cpp.o"
-  "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/MCliente.cpp" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/cmake-build-debug/CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.o"
+  "/home/andrew/CLionProjects/MPointer/MPointerQT/MPointerQT/main.cpp" "/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o"
+  "/home/andrew/CLionProjects/MPointer/src/MPointerGC/MPointerGC.cpp" "/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.o"
+  "/home/andrew/CLionProjects/MPointer/src/Ordenamientos/Sorts.cpp" "/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir/src/Ordenamientos/Sorts.cpp.o"
+  "/home/andrew/CLionProjects/MPointer/src/Server/JSONMakerClient.cpp" "/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir/src/Server/JSONMakerClient.cpp.o"
+  "/home/andrew/CLionProjects/MPointer/src/Server/MCliente.cpp" "/home/andrew/CLionProjects/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

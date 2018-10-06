@@ -192,7 +192,6 @@ public:
             if(aux->ID == id){
 
                 aux->cantRef ++;
-                cout<<"Aumenté la referencia a :"<<aux->cantRef<<endl;
                 break;
             }
             aux = aux->siguiente;

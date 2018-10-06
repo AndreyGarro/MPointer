@@ -22,15 +22,15 @@ CMakeFiles/MPointer.dir/MPointerQT/MPointerQT/main.cpp.o
  ../libraries/include/rapidjson/rapidjson.h
  ../libraries/include/rapidjson/reader.h
  ../libraries/include/rapidjson/stream.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MPointerQT/MPointerQT/main.cpp
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Dato.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Listas/ListaDoble.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Listas/ListaGC.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointer.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointerGC/MPointerGC.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Ordenamientos/Sorts.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/JSONMakerClient.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/MCliente.h
+ /home/andrew/CLionProjects/MPointer/MPointerQT/MPointerQT/main.cpp
+ /home/andrew/CLionProjects/MPointer/src/Dato.h
+ /home/andrew/CLionProjects/MPointer/src/Listas/ListaDoble.h
+ /home/andrew/CLionProjects/MPointer/src/Listas/ListaGC.h
+ /home/andrew/CLionProjects/MPointer/src/MPointer.h
+ /home/andrew/CLionProjects/MPointer/src/MPointerGC/MPointerGC.h
+ /home/andrew/CLionProjects/MPointer/src/Ordenamientos/Sorts.h
+ /home/andrew/CLionProjects/MPointer/src/Server/JSONMakerClient.h
+ /home/andrew/CLionProjects/MPointer/src/Server/MCliente.h
 CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.o
  ../libraries/include/rapidjson/allocators.h
  ../libraries/include/rapidjson/document.h
@@ -52,13 +52,13 @@ CMakeFiles/MPointer.dir/src/MPointerGC/MPointerGC.cpp.o
  ../libraries/include/rapidjson/rapidjson.h
  ../libraries/include/rapidjson/reader.h
  ../libraries/include/rapidjson/stream.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Dato.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Listas/ListaGC.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointer.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointerGC/MPointerGC.cpp
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointerGC/MPointerGC.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/JSONMakerClient.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/MCliente.h
+ /home/andrew/CLionProjects/MPointer/src/Dato.h
+ /home/andrew/CLionProjects/MPointer/src/Listas/ListaGC.h
+ /home/andrew/CLionProjects/MPointer/src/MPointer.h
+ /home/andrew/CLionProjects/MPointer/src/MPointerGC/MPointerGC.cpp
+ /home/andrew/CLionProjects/MPointer/src/MPointerGC/MPointerGC.h
+ /home/andrew/CLionProjects/MPointer/src/Server/JSONMakerClient.h
+ /home/andrew/CLionProjects/MPointer/src/Server/MCliente.h
 CMakeFiles/MPointer.dir/src/Ordenamientos/Sorts.cpp.o
  ../libraries/include/rapidjson/allocators.h
  ../libraries/include/rapidjson/document.h
@@ -80,15 +80,15 @@ CMakeFiles/MPointer.dir/src/Ordenamientos/Sorts.cpp.o
  ../libraries/include/rapidjson/rapidjson.h
  ../libraries/include/rapidjson/reader.h
  ../libraries/include/rapidjson/stream.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Dato.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Listas/ListaDoble.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Listas/ListaGC.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointer.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointerGC/MPointerGC.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Ordenamientos/Sorts.cpp
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Ordenamientos/Sorts.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/JSONMakerClient.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/MCliente.h
+ /home/andrew/CLionProjects/MPointer/src/Dato.h
+ /home/andrew/CLionProjects/MPointer/src/Listas/ListaDoble.h
+ /home/andrew/CLionProjects/MPointer/src/Listas/ListaGC.h
+ /home/andrew/CLionProjects/MPointer/src/MPointer.h
+ /home/andrew/CLionProjects/MPointer/src/MPointerGC/MPointerGC.h
+ /home/andrew/CLionProjects/MPointer/src/Ordenamientos/Sorts.cpp
+ /home/andrew/CLionProjects/MPointer/src/Ordenamientos/Sorts.h
+ /home/andrew/CLionProjects/MPointer/src/Server/JSONMakerClient.h
+ /home/andrew/CLionProjects/MPointer/src/Server/MCliente.h
 CMakeFiles/MPointer.dir/src/Server/JSONMakerClient.cpp.o
  ../libraries/include/rapidjson/allocators.h
  ../libraries/include/rapidjson/document.h
@@ -115,8 +115,8 @@ CMakeFiles/MPointer.dir/src/Server/JSONMakerClient.cpp.o
  ../libraries/include/rapidjson/stream.h
  ../libraries/include/rapidjson/stringbuffer.h
  ../libraries/include/rapidjson/writer.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/JSONMakerClient.cpp
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/JSONMakerClient.h
+ /home/andrew/CLionProjects/MPointer/src/Server/JSONMakerClient.cpp
+ /home/andrew/CLionProjects/MPointer/src/Server/JSONMakerClient.h
 CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.o
  ../libraries/include/rapidjson/allocators.h
  ../libraries/include/rapidjson/document.h
@@ -138,6 +138,6 @@ CMakeFiles/MPointer.dir/src/Server/MCliente.cpp.o
  ../libraries/include/rapidjson/rapidjson.h
  ../libraries/include/rapidjson/reader.h
  ../libraries/include/rapidjson/stream.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/JSONMakerClient.h
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/MCliente.cpp
- /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/MCliente.h
+ /home/andrew/CLionProjects/MPointer/src/Server/JSONMakerClient.h
+ /home/andrew/CLionProjects/MPointer/src/Server/MCliente.cpp
+ /home/andrew/CLionProjects/MPointer/src/Server/MCliente.h

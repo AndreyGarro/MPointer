@@ -77,7 +77,7 @@ void MPointerGC::eliminarReferencia(string id) {
  * ya no son referenciados
  */
 void MPointerGC::revisaLista() {
-    cout << "Acabé la revisión una vez" << endl;
+    cout <<endl<< "Acabé la revisión una vez" << endl;
     while(isActive()) {
         for (int i = 0; i < listaMPointer.getLenght(); i++) {
             if (listaMPointer.getNodo(i).cantRef == 0) {

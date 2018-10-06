@@ -122,7 +122,6 @@ MPointer<T> &MPointer<T>::operator=(const MPointer<T> &a) {
  */
 template<class T>
 T MPointer<T>::operator=(const T &a) {
-    cout<<"Entré :"<<a<<endl;
     if (MPointerGC::isActive()) {
         MPointerGC *GC = MPointerGC::getInstance();
         data = a;
