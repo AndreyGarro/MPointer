@@ -10,6 +10,11 @@
 MCliente *MCliente::instance = nullptr;
 bool MCliente::activo = 0;
 
+/**
+ * Se conecta con el servidor y realiza la solicitud
+ * @param json std::string con el JSON
+ * @return Objeto JSON Document
+ */
 rapidjson::Document MCliente::conectar(std::string json) {
     struct sockaddr_in direccionSC = {0};
     direccionSC.sin_family = AF_INET;
@@ -43,15 +48,22 @@ rapidjson::Document MCliente::conectar(std::string json) {
     return jsonMaker.parsearJSON(mensaje);
 }
 
-std::string MCliente::createMPointer() {
-    return std::__cxx11::string();
-}
-
+/**
+ * Constructor privado para MCliente
+ * @param ip IP
+ * @param port Puerto
+ */
 MCliente::MCliente(std::string ip, int port) {
     this->IP = ip;
     this->PORT = port;
 }
 
+/**
+ * Crea una instancia singleton para MCliente
+ * @param ip IP
+ * @param port Puerto
+ * @return MCliente
+ */
 MCliente *MCliente::getInstance(std::string ip, int port) {
     if (!instance) {
         activo = true;
@@ -80,6 +92,10 @@ bool MCliente::esActivo() {
     return activo;
 }
 
+/**
+ * Obtiene la instancia para cuando ya ha sido creada
+ * @return MCliente
+ */
 MCliente *MCliente::getInstance() {
     if (activo) {
         return instance;

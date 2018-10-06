@@ -3,9 +3,13 @@
 
 #include "Server/JSONMakerClient.h"
 #include "Server/MCliente.h"
+
+/**
+ * Dato almacena el dato a guardar en MPointer es necesario que realice ciertas funciones
+ * @tparam T Tipo de dato
+ */
 template<class T>
 class Dato {
-
 private:
     T *data;
     MCliente *cliente;
@@ -29,12 +33,18 @@ public:
     std::string getIDServer();
 };
 
-template <class T>
+template<class T>
 void Dato<T>::New() {
     data = (T *) malloc(sizeof(T));
 }
 
-template <class T>
+/**
+ * Sobrecarga para =
+ * @tparam T
+ * @param dato
+ * @return T
+ */
+template<class T>
 T Dato<T>::operator=(const T &dato) {
     if (MCliente::esActivo()) {
         cliente->conectar(jsonMaker.solicitarAsignacion(IDServer, dato));
@@ -44,6 +54,10 @@ T Dato<T>::operator=(const T &dato) {
     return *data;
 }
 
+/**
+ * Genera el IDServer para un dato
+ * @tparam T
+ */
 template<class T>
 void Dato<T>::generarIDServer() {
     cliente = MCliente::getInstance();
@@ -51,6 +65,11 @@ void Dato<T>::generarIDServer() {
     this->IDServer = doc["ID"].GetString();
 }
 
+/**
+ * Retorna el dato almacenado en el server
+ * @tparam T
+ * @return T
+ */
 template<class T>
 T Dato<T>::retornarDatoServer() {
     rapidjson::Document doc = cliente->conectar(jsonMaker.solicitarValor(IDServer));
@@ -63,10 +82,11 @@ T Dato<T>::retornarDatoServer() {
     } else if (typeid(T).name() == typeid(double).name()) {
         return doc["dato"].GetDouble();
     } else if (typeid(T).name() == typeid(long).name()) {
-        return (long) (doc["dato"].GetString());
-    } else if (typeid(T).name() == typeid(char).name()) {
         std::string temp = doc["dato"].GetString();
-        return temp.c_str()[0];
+        return std::stol(temp);
+    } else if (typeid(T).name() == typeid(char).name()) {
+        char temp = doc["dato"].GetInt();
+        return temp;
     }
 }
 

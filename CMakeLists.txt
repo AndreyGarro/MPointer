@@ -23,4 +23,9 @@ add_executable(MPointer
         MPointerQT/MPointerQT/main.cpp
         src/Server/MCliente.cpp
         src/Server/MCliente.h
-        src/MPointer.h src/Ordenamientos/InsertionSort.cpp src/Ordenamientos/InsertionSort.h src/Server/JSONMakerClient.cpp src/Server/JSONMakerClient.h src/Dato.cpp src/Dato.h)
+        src/MPointer.h
+        src/Server/JSONMakerClient.cpp
+        src/Server/JSONMakerClient.h
+        src/Ordenamientos/Sorts.h
+        src/Ordenamientos/Sorts.cpp
+        src/Dato.h)

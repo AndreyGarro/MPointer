@@ -54,8 +54,10 @@ MPointer<T>::MPointer() {
  */
 template<class T>
 MPointer<T>::~MPointer() {
-    MPointerGC *GC = MPointerGC::getInstance();
-    GC->eliminarReferencia(this->ID);
+    if (MPointerGC::isActive()) {
+        MPointerGC *GC = MPointerGC::getInstance();
+        GC->eliminarReferencia(this->ID);
+    }
 }
 
 /**

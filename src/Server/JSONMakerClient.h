@@ -3,6 +3,9 @@
 
 #include <../../libraries/include/rapidjson/document.h>
 
+/**
+ * Realiza toda la administración del JSON para el cliente
+ */
 class JSONMakerClient {
 public:
     std::string solicitarMemoria(std::string);

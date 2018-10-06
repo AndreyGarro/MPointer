@@ -28,11 +28,11 @@ CMakeFiles/MServidor.dir/Server/JSONMaker.cpp.o
  ../include/rapidjson/internal/strtod.h
  ../include/rapidjson/memorystream.h
  ../include/rapidjson/reader.h
- /home/ortegajosant/CLionProjects/MServidor/Server/JSONMaker.cpp
- /home/ortegajosant/CLionProjects/MServidor/Server/JSONMaker.h
+ /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/JSONMaker.cpp
+ /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/JSONMaker.h
 CMakeFiles/MServidor.dir/Server/MapNode.cpp.o
- /home/ortegajosant/CLionProjects/MServidor/Server/MapNode.cpp
- /home/ortegajosant/CLionProjects/MServidor/Server/MapNode.h
+ /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/MapNode.cpp
+ /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/MapNode.h
 CMakeFiles/MServidor.dir/Server/Memoria.cpp.o
  ../include/rapidjson/allocators.h
  ../include/rapidjson/document.h
@@ -54,11 +54,11 @@ CMakeFiles/MServidor.dir/Server/Memoria.cpp.o
  ../include/rapidjson/rapidjson.h
  ../include/rapidjson/reader.h
  ../include/rapidjson/stream.h
- /home/ortegajosant/CLionProjects/MServidor/Server/JSONMaker.h
- /home/ortegajosant/CLionProjects/MServidor/Server/ListaDoble.h
- /home/ortegajosant/CLionProjects/MServidor/Server/MapNode.h
- /home/ortegajosant/CLionProjects/MServidor/Server/Memoria.cpp
- /home/ortegajosant/CLionProjects/MServidor/Server/Memoria.h
+ /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/JSONMaker.h
+ /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/ListaDoble.h
+ /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/MapNode.h
+ /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/Memoria.cpp
+ /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/Memoria.h
 CMakeFiles/MServidor.dir/Server/Server.cpp.o
  ../include/rapidjson/allocators.h
  ../include/rapidjson/document.h
@@ -80,12 +80,12 @@ CMakeFiles/MServidor.dir/Server/Server.cpp.o
  ../include/rapidjson/rapidjson.h
  ../include/rapidjson/reader.h
  ../include/rapidjson/stream.h
- /home/ortegajosant/CLionProjects/MServidor/Server/JSONMaker.h
- /home/ortegajosant/CLionProjects/MServidor/Server/ListaDoble.h
- /home/ortegajosant/CLionProjects/MServidor/Server/MapNode.h
- /home/ortegajosant/CLionProjects/MServidor/Server/Memoria.h
- /home/ortegajosant/CLionProjects/MServidor/Server/Server.cpp
- /home/ortegajosant/CLionProjects/MServidor/Server/Server.h
+ /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/JSONMaker.h
+ /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/ListaDoble.h
+ /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/MapNode.h
+ /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/Memoria.h
+ /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/Server.cpp
+ /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/Server.h
 CMakeFiles/MServidor.dir/main.cpp.o
  .././include/rapidjson/allocators.h
  .././include/rapidjson/encodings.h
@@ -115,9 +115,9 @@ CMakeFiles/MServidor.dir/main.cpp.o
  ../include/rapidjson/rapidjson.h
  ../include/rapidjson/reader.h
  ../include/rapidjson/stream.h
- /home/ortegajosant/CLionProjects/MServidor/Server/JSONMaker.h
- /home/ortegajosant/CLionProjects/MServidor/Server/ListaDoble.h
- /home/ortegajosant/CLionProjects/MServidor/Server/MapNode.h
- /home/ortegajosant/CLionProjects/MServidor/Server/Memoria.h
- /home/ortegajosant/CLionProjects/MServidor/Server/Server.h
- /home/ortegajosant/CLionProjects/MServidor/main.cpp
+ /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/JSONMaker.h
+ /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/ListaDoble.h
+ /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/MapNode.h
+ /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/Memoria.h
+ /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/Server.h
+ /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/main.cpp

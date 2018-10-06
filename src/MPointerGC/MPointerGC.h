@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <thread>
+#include <pthread.h>
 
 #include "../Listas/ListaGC.h"
 

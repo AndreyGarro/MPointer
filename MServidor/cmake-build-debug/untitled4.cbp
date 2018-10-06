@@ -8,44 +8,44 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug"/>
+				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug"/>
+				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug"/>
+				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MServidor">
-				<Option output="/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/MServidor" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug"/>
+				<Option output="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/cmake-build-debug/MServidor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ortegajosant/CLionProjects/MServidor/."/>
-					<Add directory="/home/ortegajosant/CLionProjects/MServidor/include/rapidjson"/>
+					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/."/>
+					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/include/rapidjson"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -56,21 +56,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 MServidor"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 MServidor"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MServidor/fast">
-				<Option output="/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/MServidor" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug"/>
+				<Option output="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/cmake-build-debug/MServidor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ortegajosant/CLionProjects/MServidor/."/>
-					<Add directory="/home/ortegajosant/CLionProjects/MServidor/include/rapidjson"/>
+					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/."/>
+					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/include/rapidjson"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -81,44 +81,44 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 MServidor/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/CLionProjects/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 MServidor/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/MServidor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ortegajosant/CLionProjects/MServidor/Server/JSONMaker.cpp">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/JSONMaker.cpp">
 			<Option target="MServidor"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/CLionProjects/MServidor/Server/JSONMaker.h">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/JSONMaker.h">
 			<Option target="MServidor"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/CLionProjects/MServidor/Server/ListaDoble.h">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/ListaDoble.h">
 			<Option target="MServidor"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/CLionProjects/MServidor/Server/MapNode.cpp">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/MapNode.cpp">
 			<Option target="MServidor"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/CLionProjects/MServidor/Server/MapNode.h">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/MapNode.h">
 			<Option target="MServidor"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/CLionProjects/MServidor/Server/Memoria.cpp">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/Memoria.cpp">
 			<Option target="MServidor"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/CLionProjects/MServidor/Server/Memoria.h">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/Memoria.h">
 			<Option target="MServidor"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/CLionProjects/MServidor/Server/Server.cpp">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/Server.cpp">
 			<Option target="MServidor"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/CLionProjects/MServidor/Server/Server.h">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/Server/Server.h">
 			<Option target="MServidor"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/CLionProjects/MServidor/main.cpp">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/main.cpp">
 			<Option target="MServidor"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/CLionProjects/MServidor/CMakeLists.txt">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

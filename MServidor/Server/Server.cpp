@@ -3,6 +3,11 @@
 
 using namespace std;
 
+/**
+ * Inicia el servidor y la memoria
+ * @param tamano tamaño de la memoria
+ * @return entero
+ */
 int Server::run(int tamano) {
 
     memory = new Memoria((size_t)tamano);

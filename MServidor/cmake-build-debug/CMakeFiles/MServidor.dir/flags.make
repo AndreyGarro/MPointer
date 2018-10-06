@@ -6,5 +6,5 @@ CXX_FLAGS =  -fpermissive -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ortegajosant/CLionProjects/MServidor/. -I/home/ortegajosant/CLionProjects/MServidor/include/rapidjson 
+CXX_INCLUDES = -I"/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/." -I"/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MServidor/include/rapidjson" 
 

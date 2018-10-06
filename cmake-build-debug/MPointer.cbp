@@ -8,47 +8,47 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug"/>
+				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug"/>
+				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug"/>
+				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MPointer">
-				<Option output="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug/MPointer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug"/>
+				<Option output="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/cmake-build-debug/MPointer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/."/>
-					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Listas"/>
-					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/MPointerGC"/>
-					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Server"/>
-					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/libraries/include/rapidjson"/>
+					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/."/>
+					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Listas"/>
+					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointerGC"/>
+					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server"/>
+					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/libraries/include/rapidjson"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -59,24 +59,24 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 MPointer"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 MPointer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MPointer/fast">
-				<Option output="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug/MPointer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/cmake-build-debug"/>
+				<Option output="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/cmake-build-debug/MPointer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/."/>
-					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Listas"/>
-					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/MPointerGC"/>
-					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Server"/>
-					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/libraries/include/rapidjson"/>
+					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/."/>
+					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Listas"/>
+					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointerGC"/>
+					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server"/>
+					<Add directory="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/libraries/include/rapidjson"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -87,71 +87,68 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 MPointer/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Proyecto\ 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 MPointer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/Primer\ Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/MPointerQT/MPointerQT/main.cpp">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MPointerQT/MPointerQT/main.cpp">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/images/Diagrama I Iteración.jpeg">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/images/Diagrama I Iteración.jpeg">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/images/Diagrama II Iteracion.jpeg">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/images/Diagrama II Iteracion.jpeg">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/images/diagramaClases.jpg">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/images/diagramaClases.jpg">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/images/diagramaComponentes.jpg">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/images/diagramaComponentes.jpg">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/images/listas.jpg">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/images/listas.jpg">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Dato.cpp">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Dato.h">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Dato.h">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Listas/ListaDoble.h">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Listas/ListaDoble.h">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Listas/ListaGC.h">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Listas/ListaGC.h">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointer.h">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/MPointer.h">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointerGC/MPointerGC.cpp">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/MPointerGC/MPointerGC.cpp">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointerGC/MPointerGC.h">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/MPointerGC/MPointerGC.h">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Ordenamientos/Sorts.cpp">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Ordenamientos/InsertionSort.cpp">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Ordenamientos/Sorts.h">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Ordenamientos/InsertionSort.h">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/JSONMakerClient.cpp">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Server/JSONMakerClient.cpp">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/JSONMakerClient.h">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Server/JSONMakerClient.h">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/MCliente.cpp">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Server/MCliente.cpp">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/MCliente.h">
 			<Option target="MPointer"/>
 		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/src/Server/MCliente.h">
-			<Option target="MPointer"/>
-		</Unit>
-		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Proyecto 1/CMakeLists.txt">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

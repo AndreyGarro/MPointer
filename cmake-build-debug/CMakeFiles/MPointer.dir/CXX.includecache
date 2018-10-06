@@ -1,0 +1,274 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libraries/include/rapidjson/allocators.h
+rapidjson.h
+../libraries/include/rapidjson/rapidjson.h
+
+../libraries/include/rapidjson/document.h
+reader.h
+../libraries/include/rapidjson/reader.h
+internal/meta.h
+../libraries/include/rapidjson/internal/meta.h
+internal/strfunc.h
+../libraries/include/rapidjson/internal/strfunc.h
+memorystream.h
+../libraries/include/rapidjson/memorystream.h
+encodedstream.h
+../libraries/include/rapidjson/encodedstream.h
+new
+-
+limits
+-
+iterator
+-
+utility
+-
+
+../libraries/include/rapidjson/encodedstream.h
+stream.h
+../libraries/include/rapidjson/stream.h
+memorystream.h
+../libraries/include/rapidjson/memorystream.h
+
+../libraries/include/rapidjson/encodings.h
+rapidjson.h
+../libraries/include/rapidjson/rapidjson.h
+
+../libraries/include/rapidjson/error/error.h
+../rapidjson.h
+../libraries/include/rapidjson/rapidjson.h
+
+../libraries/include/rapidjson/internal/biginteger.h
+../rapidjson.h
+../libraries/include/rapidjson/rapidjson.h
+intrin.h
+-
+
+../libraries/include/rapidjson/internal/diyfp.h
+../rapidjson.h
+../libraries/include/rapidjson/rapidjson.h
+limits
+-
+intrin.h
+-
+
+../libraries/include/rapidjson/internal/ieee754.h
+../rapidjson.h
+../libraries/include/rapidjson/rapidjson.h
+
+../libraries/include/rapidjson/internal/meta.h
+../rapidjson.h
+../libraries/include/rapidjson/rapidjson.h
+type_traits
+-
+
+../libraries/include/rapidjson/internal/pow10.h
+../rapidjson.h
+../libraries/include/rapidjson/rapidjson.h
+
+../libraries/include/rapidjson/internal/stack.h
+../allocators.h
+../libraries/include/rapidjson/allocators.h
+swap.h
+../libraries/include/rapidjson/internal/swap.h
+
+../libraries/include/rapidjson/internal/strfunc.h
+../stream.h
+../libraries/include/rapidjson/stream.h
+cwchar
+-
+
+../libraries/include/rapidjson/internal/strtod.h
+ieee754.h
+../libraries/include/rapidjson/internal/ieee754.h
+biginteger.h
+../libraries/include/rapidjson/internal/biginteger.h
+diyfp.h
+../libraries/include/rapidjson/internal/diyfp.h
+pow10.h
+../libraries/include/rapidjson/internal/pow10.h
+climits
+-
+limits
+-
+
+../libraries/include/rapidjson/internal/swap.h
+../rapidjson.h
+../libraries/include/rapidjson/rapidjson.h
+
+../libraries/include/rapidjson/memorystream.h
+stream.h
+../libraries/include/rapidjson/stream.h
+
+../libraries/include/rapidjson/msinttypes/inttypes.h
+stdint.h
+../libraries/include/rapidjson/msinttypes/stdint.h
+inttypes.h
+-
+
+../libraries/include/rapidjson/msinttypes/stdint.h
+stdint.h
+-
+limits.h
+-
+wchar.h
+-
+
+../libraries/include/rapidjson/rapidjson.h
+cstdlib
+-
+cstring
+-
+rapidjson/...
+../libraries/include/rapidjson/rapidjson/...
+string
+-
+msinttypes/stdint.h
+../libraries/include/rapidjson/msinttypes/stdint.h
+msinttypes/inttypes.h
+../libraries/include/rapidjson/msinttypes/inttypes.h
+stdint.h
+-
+inttypes.h
+-
+endian.h
+-
+rapidjson/...
+../libraries/include/rapidjson/rapidjson/...
+cassert
+-
+
+../libraries/include/rapidjson/reader.h
+allocators.h
+../libraries/include/rapidjson/allocators.h
+stream.h
+../libraries/include/rapidjson/stream.h
+encodedstream.h
+../libraries/include/rapidjson/encodedstream.h
+internal/meta.h
+../libraries/include/rapidjson/internal/meta.h
+internal/stack.h
+../libraries/include/rapidjson/internal/stack.h
+internal/strtod.h
+../libraries/include/rapidjson/internal/strtod.h
+limits
+-
+intrin.h
+-
+nmmintrin.h
+-
+emmintrin.h
+-
+arm_neon.h
+-
+stdexcept
+-
+rapidjson/error/error.h
+../libraries/include/rapidjson/rapidjson/error/error.h
+rapidjson/reader.h
+../libraries/include/rapidjson/rapidjson/reader.h
+error/error.h
+../libraries/include/rapidjson/error/error.h
+
+../libraries/include/rapidjson/stream.h
+rapidjson.h
+../libraries/include/rapidjson/rapidjson.h
+encodings.h
+../libraries/include/rapidjson/encodings.h
+
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/MPointerQT/MPointerQT/main.cpp
+iostream
+-
+../../src/Ordenamientos/Sorts.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Ordenamientos/Sorts.h
+../../src/MPointer.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointer.h
+
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Dato.h
+Server/JSONMakerClient.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/JSONMakerClient.h
+Server/MCliente.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/MCliente.h
+
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Listas/ListaDoble.h
+../MPointer.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointer.h
+iostream
+-
+
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Listas/ListaGC.h
+iostream
+-
+string
+-
+
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointer.h
+stdlib.h
+-
+iostream
+-
+Server/MCliente.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/MCliente.h
+MPointerGC/MPointerGC.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointerGC/MPointerGC.h
+Dato.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Dato.h
+
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointerGC/MPointerGC.cpp
+MPointerGC.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointerGC/MPointerGC.h
+../MPointer.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointer.h
+chrono
+-
+
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/MPointerGC/MPointerGC.h
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+thread
+-
+pthread.h
+-
+../Listas/ListaGC.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Listas/ListaGC.h
+
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Ordenamientos/Sorts.cpp
+Sorts.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Ordenamientos/Sorts.h
+
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Ordenamientos/Sorts.h
+../Listas/ListaDoble.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Listas/ListaDoble.h
+
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/JSONMakerClient.h
+../../libraries/include/rapidjson/document.h
+-
+
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/MCliente.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+arpa/inet.h
+-
+sys/socket.h
+-
+iostream
+-
+../../libraries/include/rapidjson/document.h
+-
+JSONMakerClient.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/Primer Proyecto/src/Server/JSONMakerClient.h
+

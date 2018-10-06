@@ -4,7 +4,9 @@
 #include <document.h>
 #include <string.h>
 
-
+/**
+ * JSONMaker se encarga de la administración de JSON en el servidor
+ */
 class JSONMaker {
 
 public:
